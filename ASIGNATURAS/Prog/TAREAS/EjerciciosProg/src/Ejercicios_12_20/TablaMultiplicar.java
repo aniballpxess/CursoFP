@@ -24,12 +24,12 @@ public class TablaMultiplicar {
             }
 
             // Muestra por pantalla la tabla de multiplicar
+            //se usa printf() para hacer que la tabla ocupe el mismo espacio siempre
             for (int i = 1; i < 13; i++) {
-                // System.out.println(numero + " x " + i + " = " + (numero * i));
                 System.out.printf("%d x %-2d = %3d\n", numero, i, numero*i);
             }
         }
-        lector.close(); // para liberar recursos
+        lector.close(); // para liberar recursos dedicados al lector, el cual ya no es necesario
         // Mensaje de salida
         System.out.println("Adiós.");
     }

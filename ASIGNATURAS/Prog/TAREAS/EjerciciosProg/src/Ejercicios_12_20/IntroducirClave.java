@@ -21,6 +21,7 @@ public class IntroducirClave {
             // Mensaje de error por no introducir bien la clave
             System.out.println("Clave incorrecta.");
         }
+        lector.close(); // para liberar recursos dedicados al lector, el cual ya no es necesario
         // Mensaje de reconocimiento del acceso
         System.out.println("Acceso concedido.");
     }
