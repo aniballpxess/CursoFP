@@ -1,0 +1,6 @@
+PROFESOR: PABLO
+CORREO: 
+TAREAS: 
+EXÁMENES: 
+
+RECURSOS: TodoCode, PeladoNerd, hola mundo
