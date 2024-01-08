@@ -1,0 +1,7 @@
+-Todas las entidades fuertes se convierten en tabla.
+-Las entidades débiles se convierten en tabla, pero si la relación debil es de identificación, además se incorpora como parte de la clave el atributo 
+clave principal de la entidad fuerte de la que depende. ( esto a veces es común hacerlo también para dependias de existencia)
+-Relaciones ternarias siempre se transforman en tabla, independientemente de su cardinalidad.
+-Relaciones con cardinalidad 1:N no se genera tabla, la clave de la entidad "pocos" se propaga a la entidad "muchos" como clave foránea. Si la relación tiene atributos, entonces si se convierte en una tabla.
+-Relación N:M: Siempre se convierte en una tabla cuyas claves primarias son las claves de las dos entidades que relaciona.
+-Relación 1:1: Si la relación no tiene atributos se propaga la clave de A a B como clave foránea, o de B a A como clave foránea, o ambas a la vez, intentando que haya el menor número de nulos posibles. Si la relación tiene atributos se convierte en tabla.

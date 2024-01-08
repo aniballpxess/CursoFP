@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------------------------------------
+TEORÍA
+
+Resumen modelo E-R
+https://www.youtube.com/watch?v=NJp-uJGwg6k&feature=emb_logo
+
+Arquitectura de BBDD Oracle
+https://www.youtube.com/watch?v=f5Y2T9YfWC0
+
+-------------------------------------------------------------------------------------------------------------
+PRÁCTICA
+
+Paso a tablas - Entidades
+https://www.youtube.com/watch?v=f5Y2T9YfWC0
+
+Paso a tablas - Especialización Entidades
+https://www.youtube.com/watch?v=Q60a4WYaYlE
+
+Paso a tablas - Relaciones
+https://www.youtube.com/watch?v=GYvWaJvmv0c
+
+-------------------------------------------------------------------------------------------------------------
+CURSOS
+
+Khan Academy - SQL/BBDD
+https://es.khanacademy.org/computing/computer-programming/sql
+
+-------------------------------------------------------------------------------------------------------------
