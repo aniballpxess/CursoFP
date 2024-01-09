@@ -19,6 +19,9 @@ https://www.youtube.com/watch?v=Q60a4WYaYlE
 Paso a tablas - Relaciones
 https://www.youtube.com/watch?v=GYvWaJvmv0c
 
+Manual de uso de SELECT
+https://jorgesanchez.net/manuales/sql/select-basico-sql2016.html
+
 -------------------------------------------------------------------------------------------------------------
 CURSOS
 
