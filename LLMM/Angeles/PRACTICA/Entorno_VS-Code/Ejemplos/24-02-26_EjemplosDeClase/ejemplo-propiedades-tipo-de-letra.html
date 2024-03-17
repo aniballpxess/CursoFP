@@ -1,0 +1,27 @@
+<html lang="es"> 
+<head> 
+	<title>Ejemplo propiedades tipo de letra</title> 
+	<style type="text/css"> 
+		h1 {font-family: "Verdana"; 
+		 font-style: italic; 
+		 font-weight: 600; } 
+		/* las cabeceras h1 aparecerán con una fuente de la familia Verdana, pero si no 
+		se encuentra esa familia, el navegador utilizará la que haya por defecto. */ 
+		p {font-family: "Arial", sans-serif; 
+		 font-size: xx-large; } 
+		/* los párrafos utilizarán la familia Arial, pero si no se encuentra esa 
+		familia, el navegador recurrirá a la fuente sans-serif. */ 
+		h2 {font-family: "Times New Roman", Garamond, "Courier New"; 
+		 font-size: 75%; } 
+		/* las cabeceras h2 aparecerán con una fuente de la familia Times New Roman, si 
+		no se encuentra la familia, recurrimos a Garamond, pero si aún así no la 
+		encontramos, se intentará con Courier New. */ 
+	</style> 
+ 
+<body> 
+	<h1>Este es un texto de cabecera H1 con fuente verdana</h1> 
+	<h2>Este otro texto, de cabecera H2, utiliza times new roman</h2> 
+	<p>Este párrafo aparece con fuente arial </p> 
+</body>
+</html>
+

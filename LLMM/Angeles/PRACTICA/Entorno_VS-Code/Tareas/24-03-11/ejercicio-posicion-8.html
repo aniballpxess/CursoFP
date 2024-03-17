@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio de posicionamiento 8</title>
+    <style>
+      .contenedor {
+        display: grid;
+        grid-template: 325px / 500px 500px;
+        margin: 15px 10px;
+        column-gap: 30px;
+      }
+      #img1 {
+        background-color: #ffc0cb;
+      }
+      #img2 {
+        background-color: #808080;
+      }
+      figure {
+        margin: 15px 20px;
+      }
+      figcaption {
+        margin: 0 0 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div id="img1">
+        <figure>
+          <figcaption>Contenido de la columna 1.</figcaption>
+          <img src="perrito.jpg" alt="cachorro" />
+        </figure>
+      </div>
+      <div id="img2">
+        <figure>
+          <figcaption>Contenido de la columna 2.</figcaption>
+          <img src="gatito.jpg" alt="minino" />
+        </figure>
+      </div>
+    </div>
+  </body>
+</html>

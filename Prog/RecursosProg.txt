@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------------------------------------
+TEORÍA
+
+Estructuras de control
+https://puntocomnoesunlenguaje.blogspot.com/2012/04/estructuras-de-control.html
+
+Método System.out.println() de Java
+https://www.delftstack.com/es/howto/java/java-system.out.println/
+
+Tipos de datos de Java
+https://blog.hubspot.es/website/tipos-de-datos-java
+
+-------------------------------------------------------------------------------------------------------------
+PRÁCTICA
+
+Repaso Operadores Java
+https://www.arkaitzgarro.com/java/capitulo-4.html
+
+-------------------------------------------------------------------------------------------------------------
+CURSOS
+
+Curso Intro Programación - TodoCode
+https://www.youtube.com/playlist?list=PLQxX2eiEaqbzRVxjkstjLmmn9enb0x3zi
+
+Curso Java - ATL Academy
+https://www.youtube.com/watch?v=Z8zAKYLZBqc
+
+Curso POO con Java - TodoCode
+https://www.youtube.com/playlist?list=PLQxX2eiEaqbwNP20GMMCjRslRq2lOLWlg
+
+-------------------------------------------------------------------------------------------------------------

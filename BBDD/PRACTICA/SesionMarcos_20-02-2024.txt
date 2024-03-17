@@ -1,0 +1,11 @@
+DESC employees;
+
+SELECT
+    first_name    AS "Nombre",
+    department_id AS "Nº de departamento",
+    hire_date     AS "Fecha de contratación"
+FROM
+    employees
+ORDER BY
+    department_id,
+    hire_date ASC;

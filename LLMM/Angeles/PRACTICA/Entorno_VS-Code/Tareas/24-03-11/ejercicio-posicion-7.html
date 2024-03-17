@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio de posicionamiento 7</title>
+    <style>
+      div {
+        color: #ffffff;
+        position: absolute;
+      }
+      p {
+        margin: 15px 0 0 15px;
+      }
+      .primero {
+        background-color: #ff0000;
+        width: 135px;
+        height: 480px;
+
+        z-index: 3;
+        top: 150px;
+        left: 200px;
+      }
+      .segundo {
+        background-color: #0000ff;
+        width: 350px;
+        height: 125px;
+
+        z-index: 2;
+        top: 320px;
+        left: 20px;
+      }
+      .tercero {
+        background-color: #008000;
+        width: 350px;
+        height: 150px;
+
+        z-index: 1;
+        top: 100px;
+        left: 50px;
+      }
+      .cuarto {
+        background-color: #daa520;
+        width: 135px;
+        height: 135px;
+
+        z-index: 4;
+        top: 375px;
+        left: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Posicionamiento CSS. Pruebas de z-index</h1>
+    <div class="primero">
+      <p>
+        Primer div. Posicionamiento absoluto. <br>
+        <br>
+        z-index:3
+      </p>
+    </div>
+    <div class="segundo">
+      <p>
+        Segundo div.  Posicionamiento absoluto. <br>
+        <br>
+        z-index:2
+      </p>
+    </div>
+    <div class="tercero">
+      <p>
+        Tercer div. Posicionamiento absoluto. <br>
+        <br>
+        z-index:1
+      </p>
+    </div>
+    <div class="cuarto">
+      <p>
+        Cuarto div. Posicionamiento absoluto. <br>
+        <br>
+        z-index:4
+      </p>
+    </div>
+  </body>
+</html>

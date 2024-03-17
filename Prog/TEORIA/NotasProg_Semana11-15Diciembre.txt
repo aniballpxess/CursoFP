@@ -1,0 +1,4 @@
+Se ha desarrollado en las estructuras de control de Java, con lectura de teoría y realización de ejercicios del
+recurso publicado en aula virtual siguiente
+https://puntocomnoesunlenguaje.blogspot.com/2012/04/estructuras-de-control.html
+

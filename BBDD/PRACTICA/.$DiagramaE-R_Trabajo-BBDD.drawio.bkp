@@ -1,0 +1,70 @@
+<mxfile host="Electron" modified="2024-02-01T17:17:28.549Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="RS0q7oXrGPf__WPGp2v7" version="23.0.2" type="device">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="1418" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hs9dy532DAl7WxeDddr7-1" value="LIBRO" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hs9dy532DAl7WxeDddr7-2" value="EDITORIAL" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hs9dy532DAl7WxeDddr7-3" value="Publica" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="290" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hs9dy532DAl7WxeDddr7-4" value="Título" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="270" y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hs9dy532DAl7WxeDddr7-5" value="Autor" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hs9dy532DAl7WxeDddr7-7" value="Año de publicación" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hs9dy532DAl7WxeDddr7-8" value="ISBN" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hs9dy532DAl7WxeDddr7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hs9dy532DAl7WxeDddr7-7" target="hs9dy532DAl7WxeDddr7-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hs9dy532DAl7WxeDddr7-17" value="Género" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="150" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hs9dy532DAl7WxeDddr7-22" value="NombreEmpresa" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="610" y="350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hs9dy532DAl7WxeDddr7-24" value="Dirección" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="610" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hs9dy532DAl7WxeDddr7-25" value="Formato" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="210" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hs9dy532DAl7WxeDddr7-29" value="Lugar de publicación" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hs9dy532DAl7WxeDddr7-30" value="TelefonoContacto" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="500" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hs9dy532DAl7WxeDddr7-31" value="NombreContacto" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="520" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hs9dy532DAl7WxeDddr7-32" value="EmailContacto" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="500" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hs9dy532DAl7WxeDddr7-34" value="NúmeroEdición" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hs9dy532DAl7WxeDddr7-36" value="Edición&lt;br&gt;" style="ellipse;shape=doubleEllipse;margin=3;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="150" y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hs9dy532DAl7WxeDddr7-41" value="Contacto" style="ellipse;shape=doubleEllipse;margin=3;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hs9dy532DAl7WxeDddr7-45" value="ID_Editorial" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="480" y="300" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

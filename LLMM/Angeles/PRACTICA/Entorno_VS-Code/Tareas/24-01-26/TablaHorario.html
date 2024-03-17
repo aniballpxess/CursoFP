@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horario Escolar</title>
+  </head>
+  <style>
+    table {
+      margin: 0px auto;
+      border: 6px solid purple;
+      border-spacing: 18px;
+    }
+    th,
+    td {
+      border: 1px solid purple;
+      text-align: center;
+      padding: 12px;
+    }
+    .horas {
+      width: 72px;
+    }
+    .clases {
+      width: 108px;
+    }
+  </style>
+  <body>
+    <h1 style="text-align: center">Horario escolar</h1>
+    <table>
+      <colgroup>
+        <col class="horas" />
+        <col span="5" class="clases" />
+      </colgroup>
+      <tr>
+        <th style="background-color: yellow">Hora</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+      </tr>
+      <tr>
+        <td>08 - 10</td>
+        <td colspan="3">Mates</td>
+        <td>Computación</td>
+        <td>Mates</td>
+      </tr>
+      <tr>
+        <td>10 - 12</td>
+        <td>Geografía</td>
+        <td>Historia</td>
+        <td>Geografía</td>
+        <td>Historia</td>
+        <td>Geografía</td>
+      </tr>
+      <tr>
+        <td>12 - 14</td>
+        <td>Física</td>
+        <td>Inglés</td>
+        <td>Física</td>
+        <td rowspan="2">Inglés y Computación</td>
+        <td>Física</td>
+      </tr>
+      <tr>
+        <td>15 - 17</td>
+        <td>Anatomía</td>
+        <td>Karate</td>
+        <td>Karate</td>
+        <td>Karate</td>
+      </tr>
+    </table>
+  </body>
+</html>

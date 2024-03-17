@@ -1,0 +1,16 @@
+fieldset {
+  margin: 0px auto;
+  width: fit-content;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+label[for="nombre"],
+label[for="sexo"],
+label[for="familia"],
+label[for="idiomas"],
+label[for="otros"] {
+  font-weight: 700;
+}

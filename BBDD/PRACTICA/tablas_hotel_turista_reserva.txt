@@ -1,0 +1,26 @@
+CREATE TABLE turista(
+  turisid integer PRIMARY KEY,
+  nombre VARCHAR(50) NOT NULL,
+  apellidos VARCHAR(100) NOT NULL,
+  direccion VARCHAR(100) NOT NULL,
+  telefono VARCHAR(9) NOT NULL
+);
+
+CREATE TABLE hotel (
+  id_hotel integer PRIMARY KEY,
+  nombre VARCHAR(50) NOT NULL,
+  direccion VARCHAR(100) NOT NULL,
+  ciudad VARCHAR(25) NOT NULL,
+  plazas INTEGER NOT NULL,
+  telefono VARCHAR(9) NOT NULL
+);
+
+CREATE TABLE reserva (
+  turisid integer ,
+  id_hotel integer,
+  fecha_entrada DATE NOT NULL,
+  fecha_salida DATE NOT NULL,
+  PRIMARY KEY (turisid,id_hotel),
+  FOREIGN KEY (turisid) REFERENCES turista(turisid),
+  FOREIGN KEY (id_hotel) REFERENCES hotel(id_hotel)
+);

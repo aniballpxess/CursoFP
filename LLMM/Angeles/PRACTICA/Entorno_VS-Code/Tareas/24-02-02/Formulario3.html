@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario3</title>
+    <link rel="stylesheet" href="Estilo-Formulario3.css" />
+  </head>
+  <body>
+    <form name="InformacionProducto">
+      <h3>Informaci&oacute;n sobre el producto</h3>
+      <fieldset>
+        <legend>Datos b&aacute;sicos</legend>
+
+        <div class="top">
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" required />
+        </div>
+
+        <div class="mid">
+          <label for="descripcion">Descripci&oacute;n</label>
+          <textarea name="descripcion" id="descripcion" cols="42" rows="6" required></textarea>
+        </div>
+
+        <div class="mid">
+          <label for="imagen" class="imagen">Foto</label>
+          <input type="file" name="imagen" id="imagen" accept=".jpg, .png, .bmp" required />
+        </div>
+
+        <div class="bot">
+          <input type="checkbox" name="visitas" id="visitas" value="SI" />
+          <label for="visitas">A&ntilde;adir contador de visitas</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Datos econ&oacute;micos</legend>
+
+        <div class="top">
+          <label for="precio">Precio</label>
+          <span class="precio"><input type="number" name="precio" id="precio" required /> €</span>
+
+          <label for="iva">Impuestos</label>
+          <select name="iva" id="iva">
+            <option value=".04">4%</option>
+            <option value=".07">7%</option>
+            <option value=".16">16%</option>
+            <option value=".25">25%</option>
+          </select>
+        </div>
+
+        <div class="bot">
+          <span>Promoci&oacute;n</span>
+          <div class="opcion">
+            <input type="radio" name="descuento" id="descuento1" />
+            <label for="descuento1">Ninguna</label>
+          </div>
+          <div class="opcion">
+            <input type="radio" name="descuento" id="descuento2" />
+            <label for="descuento2">Transporte gratuito</label>
+          </div>
+          <div class="opcion">
+            <input type="radio" name="descuento" id="descuento3" />
+            <label for="descuento3">Descuento 5%</label>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

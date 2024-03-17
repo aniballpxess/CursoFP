@@ -1,0 +1,22 @@
+PROFESOR: Manuel Pablo Cantizano González (PABLO)
+CORREO: mcantizano@educa.madrid.org
+TAREAS: -
+EXÁMENES: -
+TEMAS TRABAJO:
+	Andrea - libros pedidos y los proveedores
+	Juanra - películas y distribuidores
+	Pedro - artistas y álbumes en spotify
+	Marcos - libros publicados y editoriales
+	Jonatan - (LoL) equipos y jugadores
+	Angie - animales y especies
+	Dani - marca de coche y modelos
+	Diego - motos
+	Juan - centro comercial y tiendas
+	Sergio - equipos de fútbol y torneos
+	Maria José - (Compañia de Seguros) póliza y producto asegurado
+	Juanma - proveedores y productos (o pedidos)
+	Daniele - jugadores de osu y replays
+	Grecia - registro de pacientes de un hospital
+	Othmane - marcas y nombres de móviles
+	Alerrandro - trabajadores y sucursal
+	Iván - genero de juego y títulos

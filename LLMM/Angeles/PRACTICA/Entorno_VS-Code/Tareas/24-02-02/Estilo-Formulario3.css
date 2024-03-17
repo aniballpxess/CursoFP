@@ -1,0 +1,65 @@
+/* Estilos tipo "element" -------------------------------------------------------------------- */
+
+form {
+  margin: 0px auto;
+  width: fit-content;
+  border: 2px solid;
+  padding: 8px;
+}
+
+h3 {
+  margin-top: 0px;
+}
+
+fieldset {
+  margin-top: 24px;
+  width: 480px;
+}
+
+legend {
+  font-weight: 700;
+}
+
+/* Estilos tipo "class" ---------------------------------------------------------------------- */
+
+div.top {
+  margin-bottom: 24px;
+}
+
+div.mid {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+div.bot {
+  margin-top: 24px;
+}
+
+div.opcion {
+  display: block;
+}
+
+span.precio {
+  margin-right: 24px;
+}
+
+/* Estilos tipo "id" ------------------------------------------------------------------------- */
+
+#nombre {
+  display: block;
+  width: 240px;
+}
+
+#descripcion {
+  display: block;
+}
+
+#imagen {
+    border: 1px solid #8d8d8d;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+#precio {
+  width: 72px;
+}

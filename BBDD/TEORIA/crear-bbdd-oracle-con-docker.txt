@@ -1,0 +1,22 @@
+https://www.youtube.com/watch?v=E170aADKxh8
+
+https://labs.play-with-docker.com/
+https://hub.docker.com/r/wnameless/oracle-xe-11g-r2
+comando-->docker pull wnameless/oracle-xe-11g-r2
+comando-->docker run -d -p 49161:1521 wnameless/oracle-xe-11g-r2
+comando-->docker ps
+copiar el "container id"
+comando-->docker exec -it "container id" bash
+---> ya estariamos en una bbdd oracle
+>>>sqlplus
+usuario system
+pass: oracle
+
+sql>> alter user hr account unlock;
+sql>> alter user hr identified by hr;
+sql>> exit;
+sql>>sqlplus hr/hr;
+sql>> desc employees;
+sqlplus>> select table_name from user_tables;
+
+select * from employees where employee_id='102";

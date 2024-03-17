@@ -1,0 +1,20 @@
+// Datos tabla TURISTA
+
+INSERT INTO TURISTA (TURISID, NOMBRE, APELLIDOS, DIRECCION, TELEFONO) VALUES ('1', 'Marcos', 'Fernández Ramos', 'c/ Honduras nº30, Coslada', '657820899');
+INSERT INTO TURISTA (TURISID, NOMBRE, APELLIDOS, DIRECCION, TELEFONO) VALUES ('2', 'Jorge Antonio', 'Sánchez Holgado', 'c/ Venezuela nº137, Coslada', '666777888');
+INSERT INTO TURISTA (TURISID, NOMBRE, APELLIDOS, DIRECCION, TELEFONO) VALUES ('3', 'Marcos', 'Márquez Salgado', 'av/ Príncipes de España nº12, San Fernando', '616720108');
+INSERT INTO TURISTA (TURISID, NOMBRE, APELLIDOS, DIRECCION, TELEFONO) VALUES ('4', 'Ana', 'Fuentes Padula', 'c/ Alcalá nº37, Madrid', '697815647');
+INSERT INTO TURISTA (TURISID, NOMBRE, APELLIDOS, DIRECCION, TELEFONO) VALUES ('5', 'Julia', 'Rodríguez Monzón', 'c/ Berenguer nº57, Barcelona', '916675896');
+INSERT INTO TURISTA (TURISID, NOMBRE, APELLIDOS, DIRECCION, TELEFONO) VALUES ('6', 'Fernando', 'Gómez Gutiérrez', 'av/ de la Constitución nº28, Coslada', '655420696');
+INSERT INTO TURISTA (TURISID, NOMBRE, APELLIDOS, DIRECCION, TELEFONO) VALUES ('7', 'Belén', 'Paredes Pompas', 'av/ José Gárate nº57, Madrid', '672754432');
+INSERT INTO TURISTA (TURISID, NOMBRE, APELLIDOS, DIRECCION, TELEFONO) VALUES ('8', 'Ana', 'Jiménez Gómez', 'pza/ de la Inmaculada Concepción, Madrid', '916736945');
+INSERT INTO TURISTA (TURISID, NOMBRE, APELLIDOS, DIRECCION, TELEFONO) VALUES ('9', 'José', 'Fernández Jiménez', 'c/ Méjico nº12, Leganés', '919903456');
+INSERT INTO TURISTA (TURISID, NOMBRE, APELLIDOS, DIRECCION, TELEFONO) VALUES ('10', 'Juan José', 'Arcos Sánchez', 'c/ Méjico nº144, Coslada', '640829950');
+
+// Datos tabla HOTEL
+
+INSERT INTO HOTEL (ID_HOTEL, NOMBRE, DIRECCION, CIUDAD, PLAZAS, TELEFONO) VALUES ('1', 'Hotel NH', 'av/ de laConstitución nº28', 'Coslada (Madrid)', '50', '916543232');
+INSERT INTO HOTEL (ID_HOTEL, NOMBRE, DIRECCION, CIUDAD, PLAZAS, TELEFONO) VALUES ('2', 'Hotel Hilton', 'av/ de los Reyes Católicos nº 69', 'Madrid (Madrid)', '124', '914206969');
+INSERT INTO HOTEL (ID_HOTEL, NOMBRE, DIRECCION, CIUDAD, PLAZAS, TELEFONO) VALUES ('3', 'Hotel Transilvania', 'c/ Vlad Tepes nº42', 'Disney (Pixar)', '420', '901800364');
+INSERT INTO HOTEL (ID_HOTEL, NOMBRE, DIRECCION, CIUDAD, PLAZAS, TELEFONO) VALUES ('4', 'Hotel Benidorm', 'c/ Cabeza de playa nº30', 'Benidorm (Alicante)', '69', '905100200');
+INSERT INTO HOTEL (ID_HOTEL, NOMBRE, DIRECCION, CIUDAD, PLAZAS, TELEFONO) VALUES ('5', 'Hotel Lucifer', 'c/ Perro Sánchez nº9', 'Círculo (Infierno)', '2', '909666616');

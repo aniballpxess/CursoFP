@@ -1,0 +1,20 @@
+// muestra todos los diferentes nombres de ciudades (solo 1 vez)
+select distinct ciudad from hotel;
+
+// muestra el nombre y la dirección de todos los hoteles de Barcelona
+select nombre,direccion from hotel where ciudad = 'Barcelona';
+
+// muestra el nombre y la mitad de las plazas (estas como si fueran las plazas disponibles) de todos los hoteles
+select nombre as "Nombre" ,plazas / 2 as "Plazas disponibles" from hotel;
+
+// muestra toda la información de los hoteles de Madrid
+select * from hotel where ciudad = 'Madrid';
+
+// cuenta todos los registros de hoteles
+select count(*) as "Nº Registros" from hotel;
+
+// muestra la ciudad y las plazas de los hoteles cuya ciudad empiece por 'm' o 'M'
+select ciudad,plazas from hotel where ciudad like 'm%' or ciudad like 'M%';
+
+// muestra nombre y direccion de todos los hoteles que no estén ni en Madrid ni en Coslada
+select nombre,direccion from hotel where not ciudad = 'Madrid' and not ciudad = 'Coslada';

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario2</title>
+    <link rel="stylesheet" href="Estilo-Formulario2.css" />
+  </head>
+  <body>
+    <h2>Ficha de datos</h2>
+    <fieldset>
+      <legend>Toma de datos</legend>
+      <table>
+        <form action="mailto:angeles.espinosa@eudca.madrid.org" method="post" name="DatosPersonales">
+          <tr>
+            <td><label for="nombre">Nombre:</label></td>
+            <td><input type="text" name="nombre" id="nombre" required /></td>
+          </tr>
+          <tr>
+            <td><label for="apeliido1">Primer apellido:</label></td>
+            <td><input type="text" name="apellido1" id="apellido1" required /></td>
+          </tr>
+          <tr>
+            <td><label for="apellido2">Segundo apellido:</label></td>
+            <td><input type="text" name="apellido2" id="apellido2" required /></td>
+          </tr>
+          <tr>
+            <td><label for="domicilio">Domicilio:</label></td>
+            <td><input type="text" name="domicilio" id="domicilio" required /></td>
+          </tr>
+          <tr>
+            <td><label for="sexo">Sexo:</label></td>
+            <td>
+              <div id="sexo">
+                <input type="radio" name="sexo" id="sexo1" value="H" required />
+                <label for="sexo1">Hombre</label>
+
+                <input type="radio" name="sexo" id="sexo2" value="M" required />
+                <label for="sexo2">Mujer</label>
+
+                <input type="radio" name="sexo" id="sexo3" value="O" required />
+                <label for="sexo2">Otro</label>
+
+                <input type="radio" name="sexo" id="sexo4" value="Nc" required />
+                <label for="sexo2">Prefiero no decirlo</label>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="seriesFav">Series favoritas:</label></td>
+            <td>
+              <div id="seriesFav">
+                <label for="seriesFav1">Stranger Things:</label>
+                <input type="checkbox" name="seriesFav" id="seriesFav1" value="ST" />
+
+                <label for="seriesFav1">Juego de Tronos:</label>
+                <input type="checkbox" name="seriesFav" id="seriesFav2" value="GoT" />
+
+                <label for="seriesFav1">El juego del calamar:</label>
+                <input type="checkbox" name="seriesFav" id="seriesFav3" value="SG" />
+              </div>
+            </td>
+          </tr>
+          <tr class="filaBotones">
+            <td><button type="submit" value="ENVIAR">Enviar datos</button></td>
+            <td><button type="reset" value="BORRAR">Borrar datos</button></td>
+          </tr>
+        </form>
+      </table>
+    </fieldset>
+  </body>
+</html>

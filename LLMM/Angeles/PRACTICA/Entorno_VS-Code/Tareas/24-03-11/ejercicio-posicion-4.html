@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio de posicionamiento 4</title>
+    <style>
+      .container1 {
+        width: 250px;
+        height: 100px;
+        background-color: green;
+
+        text-align: center;
+        color: white;
+      }
+      .container2 {
+        position: relative;
+        top: 100px;
+        left: 50px;
+
+        width: 200px;
+        height: 100px;
+        background-color: orangered;
+
+        color: white;
+      }
+      p {
+        margin: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Título de página</h1>
+    <div class="container1">
+      <p>
+        Contenedor verde de 250 x 100, que sale donde correspoende, sin
+        posicionamiento.
+      </p>
+    </div>
+    <div class="container2">
+      <p>
+        Contenedor rojo de 200 x 100, posicionamiento relativo. Se desplaza
+        100px del tope y 50px de la izquierda.
+      </p>
+    </div>
+    <h1>
+      Este texto se posiciona donde le correspondería si el contenedor rojo no
+      se hubiera desplazado
+    </h1>
+  </body>
+</html>

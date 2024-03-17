@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El Rincón de los Gatos</title>
+    <style>
+      .seccion_formulario {
+        width: 480px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <h1>Fotos de gatos</h1>
+      <div>
+        <h2>Más fotos de gatos</h2>
+        <p>Mira más <a href="http://pixabay.com/es/images/search/gato">fotos de gatos</a> en pixabay</p>
+        <a href="https://pixabay.com/es/images/search/gato">
+          <img src="gato1.jpg" alt="Minino blanco expectante" />
+        </a>
+      </div>
+      <div>
+        <h3>A los gatos les gusta:</h3>
+        <ul>
+          <li>Jugar con ovillos de lana</li>
+          <li>Jugar con punteros láser</li>
+          <li>La lasaña</li>
+        </ul>
+        <figure>
+          <img src="lasaña.jpg" alt="Lasaña deliciosa" title="Es de Garfield, ¡ni se te ocurra tocarla!" />
+          <figcaption>Los gatos <em>aman</em> la lasaña</figcaption>
+        </figure>
+      </div>
+      <div>
+        <h3>3 cosas que odian los gatos:</h3>
+        <ol>
+          <li>Tratamiento antipulgas</li>
+          <li>Los truenos</li>
+          <li>A otros gatos</li>
+        </ol>
+        <img src="gato2.jpg" alt="Gato bostezando" />
+      </div>
+      <div>
+        <h2>Hablanos de tu gato</h2>
+        <form action="mailto:angeles.espinosa@educa.madrid.org" method="post" name="CuestionarioEmpleados">
+          <fieldset class="seccion_formulario">
+            <legend>¿Tu gato prefiere el interior o el exterior?</legend>
+            <label for="preferencia">
+              <input type="radio" name="preferencia" id="preferencia1" value="INTERIOR" />
+              <span>Interior</span>
+              <input type="radio" name="preferencia" id="preferencia2" value="EXTERIOR" />
+              <span>Exterior</span>
+            </label>
+          </fieldset>
+          <fieldset class="seccion_formulario">
+            <legend>¿Cual es su personalidad?</legend>
+            <label for="personalidad">
+              <input type="checkbox" name="personalidad" id="personalidad1" value="AMOROSO" />
+              <span>Amoroso</span>
+              <input type="checkbox" name="personalidad" id="personalidad2" value="TRANQUILO" />
+              <span>Tranquilo</span>
+              <input type="checkbox" name="personalidad" id="personalidad3" value="ENERGICO" />
+              <span>Energico</span>
+            </label>
+          </fieldset>
+          <textarea
+            placeholder="Cuantanos algo sobre tu felino:"
+            name="info_felino"
+            id="info_felino"
+            cols="40"
+            rows="4"></textarea>
+          <button type="submit" value="ENVIAR">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

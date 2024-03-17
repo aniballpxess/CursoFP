@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------------------------------------
+CANALES
+
+
+-------------------------------------------------------------------------------------------------------------
+TEORÍA
+
+Arquitectura de 3 capas
+https://www.ibm.com/topics/three-tier-architecture
+
+Componentes de la URL
+https://www.geeksforgeeks.org/components-of-a-url/
+
+Web 1.0/2.0/3.0
+https://www.geeksforgeeks.org/web-1-0-web-2-0-and-web-3-0-with-their-difference/
+
+-------------------------------------------------------------------------------------------------------------
+PRÁCTICA
+
+Etiquetas
+https://www.htmlquick.com/es/reference/tags.html
+
+Colores
+https://htmlcolorcodes.com/es/
+
+Caracteres Espsciales
+https://www.mclibre.org/consultar/htmlcss/html/html-entidades-nombres-lista.html
+
+-------------------------------------------------------------------------------------------------------------
+CURSOS
+
+Curso W3Schools HTML
+https://www.w3schools.com/html/default.asp
+
+Libro "Introducción a XHTML" - Javier Eguiluz
+https://uniwebsidad.com/libros/xhtml?from=librosweb
+
+Libro "CSS Avanzado" - Javier Eguiluz
+https://uniwebsidad.com/libros/css-avanzado?from=librosweb
+
+-------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio de posicionamiento 6</title>
+    <style>
+      form {
+        background-color: #ffc0cb;
+        border: solid 3px #c7c7c7;
+        width: 400px;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      fieldset {
+        border: hidden;
+        margin:5px 0 0 5px;
+      }
+      button {
+        margin: 0 0 0 90px;
+        background-color: #a3a3a3;
+        border: solid 2px #e6e6e6;
+        color: #ff0000;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="mailto:aniballpxess@gmail.com" method="post" name="reseña">
+      <fieldset>
+        <label for="nombre"> Nombre: </label>
+        <input type="text" name="nombre" />
+      </fieldset>
+      <fieldset>
+        <label for="correo"> Email: </label>
+        <input type="email" name="correo" />
+      </fieldset>
+      <fieldset>
+        <label for="comentario"> Comentarios: </label>
+        <textarea name="comentario" cols="30" rows="5"></textarea>
+      </fieldset>
+      <fieldset>
+        <button type="submit">confirmar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

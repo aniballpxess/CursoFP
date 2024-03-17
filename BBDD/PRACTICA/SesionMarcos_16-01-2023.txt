@@ -1,0 +1,12 @@
+// muestra la ciudad, plazas y nombre de los hoteles, ordenado por plazas (desc) > nombre (asc)> ciudad (asc)
+select ciudad,plazas,nombre from hotel order by 2 desc,3,1;
+// introduce un nuevo valor en la tabla de hotel
+insert into hotel (id_hotel,nombre,direccion,ciudad,plazas,telefono) values (6969,'Hotel Marino','av/ Cabeza de playa nº 42','Cádiz',69,696969696);
+// actualiza el id de un hotel
+update hotel set id_hotel=69 where id_hotel=6969;
+// actualiza la dirección y telefono del mismo hotel
+update hotel set direccion='av\ Cabeza de playa nº 420',telefono=694206969 where id_hotel=69;
+// fija los cambios hechos en la BBDD (se suele hacer al final del dia de trabajo, tras confirmar que todo está correcto porque los cambios son irreversibles una vez hecho el "commit")
+commit;
+// sustituye todas las fechas de salida de un turista con la fecha del sistema
+update reserva set fecha_salida=sysdate where turisid=25;

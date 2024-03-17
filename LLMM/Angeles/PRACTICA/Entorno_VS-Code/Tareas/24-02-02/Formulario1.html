@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario1</title>
+    <link rel="stylesheet" href="Estilo-Formulario1.css" />
+  </head>
+  <body>
+    <form action="mailto:angeles.espinosa@educa.madrid.org" method="post" name="CuestionarioEmpleados">
+      <fieldset>
+        <h1>Cuestionario de Personal</h1>
+
+        <label for="nombre">Nombre</label><br />
+        <input type="text" name="NOMBRE" size="40" required /><br /><br />
+
+        <label for="sexo">Sexo</label><br />
+        <input type="radio" name="SEXO" value="M" required />
+        <label>Masculino</label><br />
+        <input type="radio" name="SEXO" value="F" required />
+        <label>Femenino</label><br /><br />
+
+        <label for="familia">Número de miembros de la familia</label><br />
+        <input type="text" name="FAMILIA" size="2" required /><br /><br />
+
+        <label for="idiomas">Idiomas que conoce:</label><br />
+        <input type="checkbox" name="IDIOMAS" value="frances" />
+        <label>Franc&eacute;s</label><br />
+        <input type="checkbox" name="IDIOMAS" value="ingles" />
+        <label>Ingl&eacute;s</label><br /><br />
+
+        <label for="otros">Otros:</label><br />
+        <textarea name="OTROS" cols="48" rows="8"></textarea><br /><br />
+
+        <button type="submit" value="ENVIAR">ENVIAR DATOS</button>
+        <button type="reset" value="BORRAR">VOLVER A COMENZAR</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

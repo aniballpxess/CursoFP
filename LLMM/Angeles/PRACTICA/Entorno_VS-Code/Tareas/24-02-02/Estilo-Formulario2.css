@@ -1,0 +1,47 @@
+body {
+  font-family: Helvetica;
+  color: #ffffff;
+  background-color: #242424;
+}
+
+fieldset {
+  margin: 0px auto;
+  width: fit-content;
+  white-space: nowrap;
+}
+
+legend {
+  color: #8a2be2;
+}
+
+table {
+  padding: 30px 0 30px 0;
+}
+
+input[type="text"] {
+  width: 150px;
+}
+
+input[type="radio"] {
+  margin: 0 0 0 12px;
+}
+
+input[type="checkbox"] {
+  margin: 0 24px 0 0;
+}
+
+tr.filaBotones > td {
+  padding-top: 24px;
+}
+
+#domicilio {
+  width: 300px;
+}
+
+#sexo1 {
+  margin: 0;
+}
+
+#seriesFav3 {
+  margin: 0;
+}

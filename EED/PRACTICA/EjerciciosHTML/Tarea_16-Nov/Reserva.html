@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva Casa Rural</title>
+</head>
+<body style="background-color:rgba(232, 236, 33, 0.788);">
+    <h1 style="text-align: center; color: rgb(0, 207, 0); size: 50%;">Restaurante Casa Rural</h1>
+    <div style="text-align: center;">
+        <a href="./Index.html">Portal</a>
+        <a href="./Menu.html">Menú</a>
+        <a href="./Reserva.html">Reservar</a>
+    </div>
+    <hr>
+
+    <div style="text-align: center;">
+        <form action="mailto:aniballpxess@gmail.com" method="post" name="RESERVA">
+            <label for="nombre">NOMBRE: </label>
+            <input type="text" placeholder="Introduce tu nombre" name="nombre" required>
+            <br>
+            <label for="numTarjeta">NUM. TARJETA: </label>
+            <input type="text" placeholder="Número de tu tarjeta" name="numTarjeta" style="width: 144px;" required>
+            <br>
+            <label for="cvv">CVV: </label>
+            <input type="text" placeholder="CVV" name="cvv" style="width: 27px;" required>
+            <label for="pin">PIN: </label>
+            <input type="text" placeholder="PIN" name="pin" style="width: 36px;" required>
+            <br>
+            <label for="fecha">FECHA</label>
+            <input type="datetime-local" name="fecha" required>
+            <br>
+            <label for="aviso">AVISO: </label>
+            <textarea placeholder="...." name="aviso" style="width: 360px; height: 62px;"></textarea>
+            <br>
+            <label for="parking">PARKING: </label>
+            <input type="checkbox" name="parking" value="YES">
+            <br>
+            <label for="fuera">LUGAR: Terraza</label>
+            <input type="radio" id="fuera" name="lugar" value="FUERA" required>
+            <label for="dentro">Comedor</label>
+            <input type="radio" id="dentro" name="lugar" value="DENTRO" required>
+            <label for="arriba">Habitación</label>
+            <input type="radio" id="arriba" name="lugar" value="ARRIBA" required>
+            <br>
+            <button type="submit" value="ENVIAR">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

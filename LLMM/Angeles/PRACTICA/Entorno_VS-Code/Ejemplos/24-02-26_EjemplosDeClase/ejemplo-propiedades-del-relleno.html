@@ -1,0 +1,36 @@
+
+<html>
+<head>
+  <title>Ejemplo propiedades del relleno</title>
+  <style type="text/css">
+	  .Parrafo1 {
+			padding-left: 50%; padding-right: 20px;
+			padding-top: 1em;  padding-bottom: 6pt;
+				background-color: yellow;
+				border: 1px solid;    }
+	  .Parrafo2 { 
+			margin: 1.5cm;
+			border: solid red thin;
+			padding-left: 25%;  padding-right: 25%;
+			padding-top: 0.5cm; padding-bottom: 1cm;
+			background-color: blue;    }
+	  b { 	margin: 2cm;
+			border: solid red thin;
+			background-color: green;   }
+  </style>
+</head>
+<body>
+	 <p> Este párrafo no tiene estilo </p>
+	 <p class="Parrafo1">A este párrafo le hemos aplicado las cuatro propiedades 
+	  individuales para el relleno y para cada lado hemos usado una unidad de medida 
+	  distinta. Cuando se usa un porcentaje (como en <code>padding-left</code>) &eacute;ste 
+	  se refiere al ancho del bloque de contenci&oacute;n, es decir, a la caja del 
+	  elemento padre (en este ejemplo, es <code>&lt;BODY&gt;</code>). Como el color 
+	  de fondo del relleno es igual a la propiedad &quot;<code>background</code>&quot; 
+	  del elemento, hemos usado esta propiedad para definir un color amarillo de fondo.</p>
+	 <p> Este párrafo no tiene estilo </p>
+	 <p class="Parrafo2">Este párrafo tiene un estilo diferente</p>
+	 <p> Este párrafo no tiene estilo pero <b>este texto en negrita</b> sí <b>y este también</b> ¿lo ves?.</p>
+</body>
+</html>
+

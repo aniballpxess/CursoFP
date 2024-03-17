@@ -1,0 +1,8 @@
+a) Repaso a la T1-ALMACENAMIENTO DE LA INFORMACION
+Teoría  tema1 del curso bbdd del aula virtual
+
+b) Repaso a teoría UT2-Bases de datos relacionales-El modelo E/R 
+UT2-Bases de datos relacionales-El modelo E/R
+Teoría  tema2 del curso bbdd del aula virtual
+
+c) Repaso a SQL , apuntes en tema2 del aula virtual. Carpeta "Apuntes SQL"

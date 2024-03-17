@@ -1,0 +1,285 @@
+* {
+  /*forma y color*/
+  margin: 0;
+}
+body {
+  /*forma y color*/
+  height: 100vh;
+  /*posicion*/
+  display: flex;
+  flex-direction: column;
+}
+
+/*FONDO*/
+
+.contenido {
+  /*forma y color*/
+  background-color: #c7f3f7;
+  height: 100%;
+  padding: 0px 40px;
+  /*posicion*/
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: end;
+}
+.luna {
+  /*forma y color*/
+  background-color: #989cb7;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 100px #fffff0;
+  /*posicion*/
+  /* display: none; */
+  position: absolute;
+  top: 30px;
+  left: 40%;
+}
+.sol {
+  /*forma y color*/
+  background-color: #ecfc5e;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 100px #e4e48a;
+  /*posicion*/
+  /* display: none; */
+  position: absolute;
+  top: 40px;
+  left: 80%;
+}
+.nube {
+  /*forma y color*/
+  background-color: #ffffffcc;
+  height: 40px;
+  width: 150px;
+  border-radius: 100px;
+  /*posicion*/
+  position: absolute;
+}
+.n1 {
+  /*posicion*/
+  top: 50px;
+  left: 50px;
+}
+.n2 {
+  /*posicion*/
+  top: 150px;
+  left: 100px;
+}
+.n3 {
+  /*forma y color*/
+  height: 80px;
+  /*posicion*/
+  top: 50px;
+  left: 50%;
+}
+.arbol {
+  /*forma y color*/
+  margin: 0 20px;
+  /*posicion*/
+  z-index: 2;
+}
+.tronco {
+  /*forma y color*/
+  background-color: #6f4a30;
+  height: 40px;
+  width: 10px;
+}
+.copa {
+  /*forma y color*/
+  background-color: #a7bc77;
+  height: 100px;
+  width: 50px;
+  border-radius: 20px;
+  margin: 0 0 0 -20px;
+}
+.edificio1 {
+  /*forma y color*/
+  background-color: #d9645b;
+  height: 400px;
+  width: 150px;
+  margin: 0 20px;
+  /*posicion*/
+  position: relative;
+}
+.edificio2 {
+  /*forma y color*/
+  background-color: #d9645b;
+  height: 250px;
+  width: 300px;
+  margin: 0 20px;
+  /*posicion*/
+  position: relative;
+}
+.edificio3 {
+  /*forma y color*/
+  background-color: #d9645b;
+  height: 200px;
+  width: 300px;
+  margin: 0 20px;
+  /*posicion*/
+  position: relative;
+}
+.techo {
+  /*forma y color*/
+  background-color: #77a8f6;
+  height: 50px;
+  width: 100%;
+  border-radius: 30px 30px 0 0;
+  /*posicion*/
+  position: absolute;
+  bottom: 100%;
+  left: 0px;
+}
+.edificio1 .techo,
+.edificio2 .techo {
+  /*forma y color*/
+  background-color: #8090aa;
+  height: 10px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  /*posicion*/
+  position: relative;
+  bottom: 10px;
+  left: 0px;
+}
+.piso {
+  /*forma y color*/
+  width: 100%;
+  margin: 10px 0;
+  /*posicion*/
+  display: flex;
+  justify-content: space-around;
+}
+.ventana {
+  /*forma y color*/
+  background-color: #4f4f57;
+  height: 40px;
+  width: 40px;
+  border: 2px solid #eeeef0;
+}
+.contenedor-puerta {
+  /*forma y color*/
+  width: 100%;
+  /*posicion*/
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+.puerta {
+  /*forma y color*/
+  background-color: #4f4f57;
+  height: 90px;
+  width: 60px;
+  margin: auto;
+}
+
+/*SUELO + COCHES*/
+
+.suelo {
+  /*forma y color*/
+  background-color: #999897;
+  height: 200px;
+  width: 100%;
+  /*posicion*/
+  position: relative;
+}
+.vereda {
+  /*forma y color*/
+  background-color: #bdd381;
+  height: 30px;
+  width: 100%;
+}
+.calle {
+  /*forma y color*/
+  width: 100%;
+  border-top: 4px dashed #dbdbdd;
+  /*posicion*/
+  position: relative;
+  top: 38%;
+}
+.coche {
+  /*forma y color*/
+  width: 180px;
+  height: 100px;
+  /*posicion*/
+  position: absolute;
+  z-index: 20;
+  top: 20px;
+  left: 100px;
+}
+.techo-coche {
+  /*forma y color*/
+  background-color: #ceae97;
+  height: 40px;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px 10px 0 0;
+  /*posicion*/
+  display: flex;
+  justify-content: space-around;
+}
+.ventana-coche {
+  /*forma y color*/
+  background-color: #6786c0;
+  height: 30px;
+  width: 30px;
+  border-radius: 7px 7px 0 0;
+  /*posicion*/
+  position: relative;
+  top: 5px;
+}
+.centrocoche {
+  /*forma y color*/
+  background-color: #ceae97;
+  height: 50px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  margin: auto;
+}
+.ruedas {
+  /*posicion*/
+  display: flex;
+  justify-content: space-around;
+}
+.rueda {
+  /*forma y color*/
+  background-color: #000000;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  /*posicion*/
+  position: relative;
+  bottom: 20px;
+}
+.coche2 {
+  /*forma y color*/
+  height: 100px;
+  width: 150px;
+  /*posicion*/
+  position: absolute;
+  z-index: 10;
+  top: -20px;
+  right: 100px;
+}
+.techo-coche2 {
+  /*forma y color*/
+  background-color: #d9645b;
+  height: 30px;
+  width: 60%;
+  border-radius: 10px 10px 0 0;
+  margin: 0 0 0 60px;
+  /*posicion*/
+  display: flex;
+  justify-content: space-around;
+}
+.centrocoche2 {
+  /*forma y color*/
+  background-color: #d9645b;
+  height: 45px;
+  width: 100%;
+  border-radius: 20px 0 0 0;
+  margin: auto;
+}

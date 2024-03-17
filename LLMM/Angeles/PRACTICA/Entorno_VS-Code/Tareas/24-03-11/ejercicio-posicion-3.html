@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio de posicionamiento 3</title>
+    <style>
+      .contenedor {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+
+        background-color: #07bd256b;
+        border: solid 4px #07bd25;
+        height: 300px;
+        width: 400px;
+      }
+      .caja1 {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+
+        background-color: #e2545479;
+        border: solid 3px #c90808;
+        height: fit-content;
+        width: 120px;
+
+        
+        color: #c90808;
+
+      }
+      .caja2 {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+
+        background-color: #5654e269;
+        border: solid 2px #070abd;
+        height: fit-content;
+        width: 120px;
+        
+        color: #070abd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="caja1">Elemento con position y top</div>
+      <div class="caja2">Elemento con position y bottom</div>
+    </div>
+  </body>
+</html>
