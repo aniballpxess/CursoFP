@@ -14,7 +14,7 @@ body {
 
 .contenido {
   /*forma y color*/
-  background-color: #c7f3f7;
+  background-color: #c1e7ea;
   height: 100%;
   padding: 0px 40px;
   /*posicion*/
@@ -22,38 +22,47 @@ body {
   position: relative;
   justify-content: center;
   align-items: end;
+
+  animation: anochecer 10s linear forwards;
+  animation-delay: 10s;
 }
 .luna {
   /*forma y color*/
   background-color: #989cb7;
-  height: 120px;
   width: 120px;
+  height: 120px;
   border-radius: 50%;
   box-shadow: 0px 0px 100px #fffff0;
+  opacity: 0;
   /*posicion*/
-  /* display: none; */
   position: absolute;
   top: 30px;
   left: 40%;
+  
+  animation: aparecer 7s linear forwards;
+  animation-delay: 10s;
 }
 .sol {
   /*forma y color*/
-  background-color: #ecfc5e;
-  height: 150px;
-  width: 150px;
+  background-color: #e6f10f;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  box-shadow: 0px 0px 100px #e4e48a;
+  box-shadow: 0px 0px 100px #ffff8c;
   /*posicion*/
   /* display: none; */
   position: absolute;
-  top: 40px;
-  left: 80%;
+  top: 50px;
+  right: 50px;
+  
+  animation: esconderse 20s linear forwards;
 }
+
 .nube {
   /*forma y color*/
   background-color: #ffffffcc;
-  height: 40px;
   width: 150px;
+  height: 40px;
   border-radius: 100px;
   /*posicion*/
   position: absolute;
@@ -62,11 +71,15 @@ body {
   /*posicion*/
   top: 50px;
   left: 50px;
+  
+  animation: moverse1 60s linear;
 }
 .n2 {
   /*posicion*/
   top: 150px;
   left: 100px;
+  
+  animation: moverse2 90s linear;
 }
 .n3 {
   /*forma y color*/
@@ -74,7 +87,10 @@ body {
   /*posicion*/
   top: 50px;
   left: 50%;
+  
+  animation: moverse3 50s forwards;
 }
+
 .arbol {
   /*forma y color*/
   margin: 0 20px;
@@ -84,22 +100,23 @@ body {
 .tronco {
   /*forma y color*/
   background-color: #6f4a30;
-  height: 40px;
   width: 10px;
+  height: 40px;
 }
 .copa {
   /*forma y color*/
   background-color: #a7bc77;
-  height: 100px;
   width: 50px;
+  height: 100px;
   border-radius: 20px;
   margin: 0 0 0 -20px;
 }
+
 .edificio1 {
   /*forma y color*/
   background-color: #d9645b;
-  height: 400px;
   width: 150px;
+  height: 400px;
   margin: 0 20px;
   /*posicion*/
   position: relative;
@@ -107,8 +124,8 @@ body {
 .edificio2 {
   /*forma y color*/
   background-color: #d9645b;
-  height: 250px;
   width: 300px;
+  height: 250px;
   margin: 0 20px;
   /*posicion*/
   position: relative;
@@ -116,17 +133,18 @@ body {
 .edificio3 {
   /*forma y color*/
   background-color: #d9645b;
-  height: 200px;
   width: 300px;
+  height: 200px;
   margin: 0 20px;
   /*posicion*/
   position: relative;
 }
+
 .techo {
   /*forma y color*/
   background-color: #77a8f6;
-  height: 50px;
   width: 100%;
+  height: 50px;
   border-radius: 30px 30px 0 0;
   /*posicion*/
   position: absolute;
@@ -137,8 +155,8 @@ body {
 .edificio2 .techo {
   /*forma y color*/
   background-color: #8090aa;
-  height: 10px;
   width: 100%;
+  height: 10px;
   border-radius: 10px 10px 0 0;
   /*posicion*/
   position: relative;
@@ -153,13 +171,30 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
 .ventana {
   /*forma y color*/
   background-color: #4f4f57;
-  height: 40px;
   width: 40px;
+  height: 40px;
   border: 2px solid #eeeef0;
 }
+.luz {
+  animation: encender .5s linear forwards;
+}
+.e1 {
+  animation-delay: 15s;
+}
+.e2 {
+  animation-delay: 19s;
+}
+.e3 {
+  animation-delay: 21s;
+}
+.e4 {
+  animation-delay: 17s;
+}
+
 .contenedor-puerta {
   /*forma y color*/
   width: 100%;
@@ -171,8 +206,8 @@ body {
 .puerta {
   /*forma y color*/
   background-color: #4f4f57;
-  height: 90px;
   width: 60px;
+  height: 90px;
   margin: auto;
 }
 
@@ -181,16 +216,16 @@ body {
 .suelo {
   /*forma y color*/
   background-color: #999897;
-  height: 200px;
   width: 100%;
+  height: 200px;
   /*posicion*/
   position: relative;
 }
 .vereda {
   /*forma y color*/
   background-color: #bdd381;
-  height: 30px;
   width: 100%;
+  height: 30px;
 }
 .calle {
   /*forma y color*/
@@ -200,7 +235,8 @@ body {
   position: relative;
   top: 38%;
 }
-.coche {
+
+.coche1 {
   /*forma y color*/
   width: 180px;
   height: 100px;
@@ -209,35 +245,72 @@ body {
   z-index: 20;
   top: 20px;
   left: 100px;
+  
+  animation: desplazarse1 3s infinite linear;
+  animation-delay: 4s;
 }
-.techo-coche {
+.techo-coche1 {
   /*forma y color*/
   background-color: #ceae97;
-  height: 40px;
   width: 50%;
+  height: 40px;
   margin: auto;
   border-radius: 10px 10px 0 0;
   /*posicion*/
   display: flex;
   justify-content: space-around;
 }
+.centro-coche1 {
+  /*forma y color*/
+  background-color: #ceae97;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px 10px 0 0;
+  margin: auto;
+}
+
+.coche2 {
+  /*forma y color*/
+  width: 150px;
+  height: 100px;
+  /*posicion*/
+  position: absolute;
+  z-index: 10;
+  top: -20px;
+  right: 100px;
+  
+  animation: desplazarse2 5s infinite linear;
+  animation-delay: 2s;
+}
+.techo-coche2 {
+  /*forma y color*/
+  background-color: #d9645b;
+  width: 60%;
+  height: 30px;
+  border-radius: 10px 10px 0 0;
+  margin: 0 0 0 60px;
+  /*posicion*/
+  display: flex;
+  justify-content: space-around;
+}
+.centro-coche2 {
+  /*forma y color*/
+  background-color: #d9645b;
+  width: 100%;
+  height: 45px;
+  border-radius: 20px 0 0 0;
+  margin: auto;
+}
+
 .ventana-coche {
   /*forma y color*/
   background-color: #6786c0;
-  height: 30px;
   width: 30px;
+  height: 30px;
   border-radius: 7px 7px 0 0;
   /*posicion*/
   position: relative;
   top: 5px;
-}
-.centrocoche {
-  /*forma y color*/
-  background-color: #ceae97;
-  height: 50px;
-  width: 100%;
-  border-radius: 10px 10px 0 0;
-  margin: auto;
 }
 .ruedas {
   /*posicion*/
@@ -247,39 +320,92 @@ body {
 .rueda {
   /*forma y color*/
   background-color: #000000;
-  height: 50px;
   width: 50px;
+  height: 50px;
   border-radius: 50%;
   /*posicion*/
   position: relative;
   bottom: 20px;
 }
-.coche2 {
-  /*forma y color*/
-  height: 100px;
-  width: 150px;
-  /*posicion*/
-  position: absolute;
-  z-index: 10;
-  top: -20px;
-  right: 100px;
+
+@keyframes anochecer {
+  0% {
+    background: #c1e7ea;
+  }
+  50% {
+    background: #6a6a6a;
+  }
+  100% {
+    background: #03084e;
+  }
 }
-.techo-coche2 {
-  /*forma y color*/
-  background-color: #d9645b;
-  height: 30px;
-  width: 60%;
-  border-radius: 10px 10px 0 0;
-  margin: 0 0 0 60px;
-  /*posicion*/
-  display: flex;
-  justify-content: space-around;
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-.centrocoche2 {
-  /*forma y color*/
-  background-color: #d9645b;
-  height: 45px;
-  width: 100%;
-  border-radius: 20px 0 0 0;
-  margin: auto;
+@keyframes esconderse {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes moverse1 {
+  0% {
+    top: 50px;
+    left: 50px;
+  }
+  100% {
+    top: 50px;
+    left: 100%;
+  }
+}
+@keyframes moverse2 {
+  0% {
+    top: 150px;
+    left: 100px;
+  }
+  100% {
+    top: 150px;
+    left: 80%;
+  }
+}
+@keyframes moverse3 {
+  0% {
+    top: 50px;
+    left: 50%;
+  }
+  100% {
+    top: 50px;
+    left: 100%;
+  }
+}
+@keyframes encender {
+  from {
+    background-color: #4f4f57;
+  }
+  to {
+    background: linear-gradient(to top, #fafa1e, #ffcd00);
+  }
+}
+@keyframes desplazarse1 {
+  0% {
+    left: -180px;
+  }
+  100% {
+    left: 100%;
+  }  
+}
+@keyframes desplazarse2 {
+  0% {
+    right: -150px;
+  }
+  100% {
+    right: 100%;
+  }
 }
