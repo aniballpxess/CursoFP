@@ -1,0 +1,11 @@
+* {
+  /*forma y color*/
+  margin: 0;
+}
+body {
+  /*forma y color*/
+  height: 100vh;
+  /*posicion*/
+  display: flex;
+  flex-direction: column;
+}
