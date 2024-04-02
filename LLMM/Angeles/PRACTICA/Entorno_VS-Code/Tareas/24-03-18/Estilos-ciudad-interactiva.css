@@ -5,7 +5,69 @@
 body {
   /*forma y color*/
   height: 100vh;
+  width: 100vw;
+  background-color: #afffff;
   /*posicion*/
   display: flex;
-  flex-direction: column;
+  position: relative;
+  justify-content: center;
+}
+div.contenido {
+  /*forma y color*/
+  height: 100%;
+  /*posicion*/
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  padding: 50px 50px;
+}
+div.ejemplo {
+  /*forma y color*/
+    height: fit-content;
+    width: fit-content;
+    background-color: #ffffff;
+    padding: 50px 50px 5px 50px;
+  /*posicion*/
+  margin: 20px;
+}
+div.accion {
+  /*forma y color*/
+  height: fit-content;
+  width: fit-content;
+  /*posicion*/
+  margin: 50px 0 0 0;
+  text-align: center;
+}
+
+
+
+
+
+div.caja {
+  /*forma y color*/
+  height: 60px;
+  width: 80px;
+  background-color: red;
+  border: solid 2px black;
+  /*posicion*/
+}
+div.c1 {
+  transition: all 2.4s linear 0s;
+}
+div.c1:hover {
+  background-color: blue;
+  transform: rotate(180deg);
+}
+div.c2 {
+  transition: all 1s linear 0s;
+}
+div.c2:hover {
+  background-color: blue;
+  transform: scale(150%, 75%);
+}
+div.c3 {
+  transition: all 1s linear 0s;
+}
+div.c3:hover {
+  background-color: blue;
+  transform: translate(20px, 40px);
 }
