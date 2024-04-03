@@ -4,70 +4,83 @@
 }
 body {
   /*forma y color*/
-  height: 100vh;
-  width: 100vw;
   background-color: #afffff;
   /*posicion*/
   display: flex;
-  position: relative;
   justify-content: center;
+}
+h1,h2 {
+  width: 100%;
+  text-align: center;
 }
 div.contenido {
   /*forma y color*/
   height: 100%;
+  max-width: 650px;
+  min-width: 650px;
   /*posicion*/
-  display: grid;
-  grid-template-columns: 30% 30% 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
   padding: 50px 50px;
 }
 div.ejemplo {
   /*forma y color*/
-    height: fit-content;
-    width: fit-content;
-    background-color: #ffffff;
-    padding: 50px 50px 5px 50px;
+  width: fit-content;
+  background-color: #ffffff;
   /*posicion*/
-  margin: 20px;
+  padding: 0 50px 50px 50px;
 }
 div.accion {
   /*forma y color*/
-  height: fit-content;
-  width: fit-content;
+  width: 100%;
+  background-color: violet;
   /*posicion*/
-  margin: 50px 0 0 0;
+  margin: 0 0 50px 0;
   text-align: center;
 }
-
-
-
-
 
 div.caja {
   /*forma y color*/
   height: 60px;
-  width: 80px;
+  width: 92px;
   background-color: red;
   border: solid 2px black;
   /*posicion*/
 }
-div.c1 {
-  transition: all 2.4s linear 0s;
+div.accion:hover {
+  background-color: yellow;
 }
-div.c1:hover {
+
+div.c11 {
+  transition: all 2s linear 0s;
+}
+div.accion:hover + div.c11 {
   background-color: blue;
   transform: rotate(180deg);
 }
-div.c2 {
+
+div.c12 {
   transition: all 1s linear 0s;
 }
-div.c2:hover {
+div.accion:hover + div.c12 {
   background-color: blue;
   transform: scale(150%, 75%);
 }
-div.c3 {
+
+div.c13 {
   transition: all 1s linear 0s;
 }
-div.c3:hover {
+div.accion:hover + div.c13 {
   background-color: blue;
   transform: translate(20px, 40px);
+}
+
+div.c14 {
+  transition: all 1s linear 0s;
+}
+div.accion:hover + div.c14 {
+  background-color: blue;
+  transform: skew(20deg, 20deg);
 }
