@@ -1,32 +1,36 @@
 * {
   /*forma y color*/
-  margin: 0;
+  margin: 0 auto;
 }
 body {
   /*forma y color*/
   background-color: #afffff;
-  /*posicion*/
-  display: flex;
-  justify-content: center;
 }
-h1,h2 {
-  width: 100%;
-  text-align: center;
-}
-div.contenido {
+div.seccion {
   /*forma y color*/
   height: 100%;
-  max-width: 650px;
-  min-width: 650px;
+  max-width: 900px;
+  min-width: 900px;
+  padding: 50px 50px 50px 50px;
+}
+h1,h2 {
+  /*posicion*/
+  text-align: center;
+  padding: 0 0 50px 0;
+}
+div.contenido {
+  height: 100%;
+  max-width: 900px;
+  min-width: 900px;
   /*posicion*/
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  padding: 50px 50px;
 }
 div.ejemplo {
   /*forma y color*/
+  height: fit-content;
   width: fit-content;
   background-color: #ffffff;
   /*posicion*/
@@ -43,8 +47,8 @@ div.accion {
 
 div.caja {
   /*forma y color*/
-  height: 60px;
-  width: 92px;
+  height: 56px;
+  width: 86px;
   background-color: red;
   border: solid 2px black;
   /*posicion*/
