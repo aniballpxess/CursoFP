@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciudades>
+  <ciudad>
+    <nombre>Calcuta</nombre>
+    <pais continente="Ásia">India</pais>
+  </ciudad>
+  <ciudad>
+    <nombre>Oporto</nombre>
+    <pais continente="Europa">Portugal</pais>
+  </ciudad>
+  <ciudad>
+    <nombre>Alejandria</nombre>
+    <pais continente="África">Egipto</pais>
+  </ciudad>
+</ciudades> 
