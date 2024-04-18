@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona [
+  <!ELEMENT persona (nombre, apellidos)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT apellidos ANY>
+]>
+<persona>
+  <nombre>Jorge</nombre>
+  <apellidos>Sánchez Asenjo <nombre>Jorge</nombre>
+  </apellidos>
+</persona>

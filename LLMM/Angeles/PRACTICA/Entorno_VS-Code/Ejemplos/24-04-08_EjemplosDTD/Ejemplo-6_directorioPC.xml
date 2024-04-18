@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE sistema SYSTEM "Ejemplo-6_directorioPC.dtd">
+<sistema>
+  <unidad letra="A"/>
+  <unidad letra="C">
+    <directorio>
+      <nombre>Archivos de Programa</nombre>
+      <fecha>
+        <dia>17</dia>
+        <mes>5</mes>
+        <anio>2004</anio>
+      </fecha>
+      <directorio>
+        <nombre>Internet Explorer</nombre>
+        <fecha>
+          <dia>19</dia>
+          <mes>8</mes>
+          <anio>2004</anio>
+        </fecha>
+        <fichero tamano="87545546">
+          <nombre>Iexplore.exe</nombre>
+          <fecha>
+            <dia>19</dia>
+            <mes>8</mes>
+            <anio>2004</anio>
+          </fecha>
+        </fichero>
+      </directorio>
+    </directorio>
+    <fichero tamano="456">
+      <nombre>config.sys</nombre>
+      <fecha>
+        <dia>8</dia>
+        <mes>12</mes>
+        <anio>2003</anio>
+      </fecha>
+    </fichero>
+  </unidad>
+</sistema>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Archivo directorio1.xml-->
+<!DOCTYPE directorio SYSTEM "Ejemplo-5_directorio.dtd">
+<directorio>
+  <persona id="p1">Pedro</persona>
+  <persona id="p2">Marisa</persona>
+  <persona id="p3" 
+           madre="p2" 
+           padre="p1">Carmen</persona>
+</directorio>

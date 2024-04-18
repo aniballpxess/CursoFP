@@ -1,0 +1,5 @@
+<!ELEMENT formas (poligono+)>
+<!ELEMENT poligono ((coordX,coordY,coordX,coordY,(coordX,coordY)+)|nombre)>
+<!ELEMENT coordX (#PCDATA)>
+<!ELEMENT coordY (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>

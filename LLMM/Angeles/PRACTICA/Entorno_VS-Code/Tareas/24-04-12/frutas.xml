@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<frutas>
+    <fruta tipo="tropical">
+        <nombre>cereza</nombre>
+    </fruta>
+    <fruta tipo="citrico">
+        <nombre>naranja</nombre>
+        <precio>32&#8364;</precio>
+    </fruta>
+</frutas>

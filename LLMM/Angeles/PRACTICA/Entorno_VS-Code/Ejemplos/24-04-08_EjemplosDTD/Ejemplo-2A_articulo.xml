@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE artículo [
+<!ELEMENT artículo (id | serie)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT serie (#PCDATA)>
+]>
+<artículo>
+<id>16</id>
+</artículo> 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SSOO>
+  <Alumno>
+    <Matricula>Completa</Matricula>
+    <Nombre>Marcos</Nombre>
+    <Apellidos>Fernández Ramos</Apellidos>
+    <Nota-de-Teoría>7.5</Nota-de-Teoría>
+    <Nota-de-Práctica>5.1</Nota-de-Práctica>
+  </Alumno>
+  <Alumno>
+    <Matricula>Parcial</Matricula>
+    <Nombre>Carlos</Nombre>
+    <Apellidos>Márquez Peralta</Apellidos>
+    <Nota-de-Teoría>3.6</Nota-de-Teoría>
+    <Nota-de-Práctica>4.8</Nota-de-Práctica>
+  </Alumno>
+  <Alumno>
+    <Matricula>Parcial</Matricula>
+    <Nombre>Fernando</Nombre>
+    <Apellidos>Aguado Pérez</Apellidos>
+    <Nota-de-Teoría>8</Nota-de-Teoría>
+    <Nota-de-Práctica>6.3</Nota-de-Práctica>
+  </Alumno>
+  <Alumno>
+    <Matricula>Completa</Matricula>
+    <Nombre>Pedro</Nombre>
+    <Apellidos>Gómez Herrero</Apellidos>
+    <Nota-de-Teoría>4.9</Nota-de-Teoría>
+    <Nota-de-Práctica>9.1</Nota-de-Práctica>
+  </Alumno>
+</SSOO>

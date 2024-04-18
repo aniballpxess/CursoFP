@@ -1,0 +1,6 @@
+<!NOTATION JPG SYSTEM "image/jpg">
+<!ENTITY mediterraneo SYSTEM "mediterraneo.jpg" NDATA JPG>
+<!ELEMENT mares (mar)>
+<!ELEMENT mar (nombre)>
+<!ATTLIST mar imagen ENTITY #IMPLIED>
+<!ELEMENT nombre (#PCDATA)>

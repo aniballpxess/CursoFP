@@ -11,6 +11,8 @@ h2 {
   text-align: center;
 }
 
+/* Estructura de la página */
+
 div.estructura {
   width: fit-content;
   height: fit-content;
@@ -30,14 +32,25 @@ div.contenido {
 }
 div.c1 {
   /* CAMBIAR PARA HACER LA PÁGINA SÓLIDA */
-  min-width: auto;
+ max-width: auto;
 }
 
 /* Forma básica de los ejemplos */
+
 div.ejemplo {
   width: fit-content;
   height: fit-content;
   background-color: #ffffff;
+}
+div.accion {
+  height: 30px;
+  background-color: violet;
+  
+  padding: 0 2px 0 2px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 div.espacio {
   width: 190px;
@@ -47,24 +60,12 @@ div.espacio {
   align-items: center;
   justify-content: center;
 }
-div.accion {
-  height: 30px;
-  background-color: violet;
-
-  padding: 0 2px 0 2px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 div.caja {
   width: 86px;
   height: 56px;
   background-color: red;
 
   border: solid 2px black;
-
-
 }
 
 /* ANIMACIONES */
@@ -78,7 +79,7 @@ div.accion:hover {
 div#c11 {
   transition: all 2.2s linear 0s;
 }
-div.accion:hover ~ div.espacio>div#c11 {
+div.accion:hover ~ div.espacio > div#c11 {
   background-color: blue;
   transform: rotate(180deg);
 }
@@ -86,7 +87,7 @@ div.accion:hover ~ div.espacio>div#c11 {
 div#c12 {
   transition: all 1s linear 0s;
 }
-div.accion:hover ~ div.espacio>div#c12 {
+div.accion:hover ~ div.espacio > div#c12 {
   background-color: blue;
   transform: scale(150%, 75%);
 }
@@ -94,7 +95,7 @@ div.accion:hover ~ div.espacio>div#c12 {
 div#c13 {
   transition: all 0.8s linear 0s;
 }
-div.accion:hover ~ div.espacio>div#c13 {
+div.accion:hover ~ div.espacio > div#c13 {
   background-color: blue;
   transform: translate(20px, 40px);
 }
@@ -102,7 +103,7 @@ div.accion:hover ~ div.espacio>div#c13 {
 div#c14 {
   transition: all 1s linear 0s;
 }
-div.accion:hover ~ div.espacio>div#c14 {
+div.accion:hover ~ div.espacio > div#c14 {
   background-color: blue;
   transform: skew(20deg, 20deg);
 }
@@ -112,47 +113,76 @@ div.accion:hover ~ div.espacio>div#c14 {
 div#c21 {
   transition: all 6s ease 0s;
 }
-div.accion:hover ~ div.espacio>div#c21 {
+div.accion:hover ~ div.espacio > div#c21 {
   background-color: greenyellow;
   transform: rotate(720deg);
 }
+
 div#c22 {
   transition: all 6s linear 0s;
 }
-div.accion:hover ~ div.espacio>div#c22 {
+div.accion:hover ~ div.espacio > div#c22 {
   background-color: greenyellow;
   transform: rotate(720deg);
 }
+
 div#c23 {
   transition: all 6s ease-in 0s;
 }
-div.accion:hover ~ div.espacio>div#c23 {
+div.accion:hover ~ div.espacio > div#c23 {
   background-color: greenyellow;
   transform: rotate(720deg);
 }
+
 div#c24 {
   transition: all 6s ease-out 0s;
 }
-div.accion:hover ~ div.espacio>div#c24 {
+div.accion:hover ~ div.espacio > div#c24 {
   background-color: greenyellow;
   transform: rotate(720deg);
 }
+
 div#c25 {
   transition: all 6s ease-in-out 0s;
 }
-div.accion:hover ~ div.espacio>div#c25 {
+div.accion:hover ~ div.espacio > div#c25 {
   background-color: greenyellow;
   transform: rotate(720deg);
 }
 
-/* EJEMPLOS COMPLEJOS */
+/* Ejemplos de Animaciones Compuestas */
 
 div#c31 {
-  transition: all 6s ease 0s;
+  width: 92px;
+  height: 92px;
+  background-color: #505050;
+  border-radius: 50%;
+
+  transition: all 4s ease 0s;
 }
-div.accion:hover ~ div.espacio>div#c31 {
+div.accion:hover ~ div.espacio > div#c31 {
+  width: 60px;
+  height: 60px;
   background-color: turquoise;
-  transform: rotate(720deg);
+  border-radius: 0%;
+  transform: rotate(1125deg) skew(10deg, 10deg);
+}
+
+/* TODO */
+
+div#c32 {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  background: linear-gradient(120deg, #99ff99, #99ff33, #ff6842);
+  background-size: 200% 200%;
+  background-position: 20% 10%;
+  
+  transition: all 4s ease 0s;
+}
+div.accion:hover ~ div.espacio > div#c32 {
+  transform: rotate(1200deg);
+  background-position: 80% 90%;
 }
 
 /* EJEMPLOS ANIMACIONES */

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factura [
+  <!ELEMENT factura (infoFacturacion, infoPedido)>
+    <!ELEMENT infoFacturacion (datosEmpresa, datosCliente, fecha)>
+    <!ATTLIST infoFacturacion 
+              numPedido ID #REQUIRED
+              metodoPago (EFECTIVO|TRANSFERENCIA|TARJETA) #REQUIRED
+    >
+      <!ELEMENT datosEmpresa (nombre, direccionCompleta, tel, fax)>
+      <!ATTLIST datosEmpresa CIF ID #REQUIRED>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT direccionCompleta (direccion, poblacion, codPostal, provincia?)>
+          <!ELEMENT direccion (#PCDATA)>
+          <!ELEMENT poblacion (#PCDATA)>
+          <!ELEMENT codPostal (#PCDATA)>
+          <!ELEMENT provincia (#PCDATA)>
+        <!ELEMENT tel (#PCDATA)>
+        <!ELEMENT fax (#PCDATA)>
+      <!ELEMENT fecha (anno, mes, dia)>
+        <!ELEMENT anno (#PCDATA)>
+        <!ELEMENT mes (#PCDATA)>
+        <!ELEMENT dia (#PCDATA)>
+      <!ELEMENT datosCliente (nombre, direccionCompleta)>
+      <!ATTLIST datosCliente numCliente ID #REQUIRED>
+    <!ELEMENT infoPedido (producto+, importe)>
+      <!ELEMENT producto (referencia, descripcion, cantidad, precio)>
+      <!ATTLIST producto iva (0|4|5|10|21) #REQUIRED
+      >
+        <!ELEMENT referencia (#PCDATA)>
+        <!ELEMENT descripcion (#PCDATA)>
+        <!ELEMENT cantidad (#PCDATA)>
+        <!ELEMENT precio (#PCDATA)>
+      <!ELEMENT importe (baseImponible, cuotaIva)>
+        <!ELEMENT baseImponible (#PCDATA)>
+        <!ELEMENT cuotaIva (#PCDATA)>
+]>
+<factura>
+  <infoFacturacion numPedido="p731" metodoPago="EFECTIVO">
+    <datosEmpresa CIF="Q-9876543">
+      <nombre>Equipos Digitales S.L.</nombre>
+      <direccionCompleta>
+        <direccion>Av. Valladolid</direccion>
+        <poblacion>Madrid</poblacion>
+        <codPostal>28015</codPostal>
+      </direccionCompleta>
+      <tel>917776688</tel>
+      <fax>917776699</fax>
+    </datosEmpresa>
+    <datosCliente numCliente="c879">
+      <nombre>Darío Bueno Gutiérrez</nombre>
+      <direccionCompleta>
+        <direccion>Av. Oporto nº7 4ºD</direccion>
+        <poblacion>Madrid</poblacion>
+        <codPostal>28043</codPostal>
+        <provincia>Madrid</provincia>
+      </direccionCompleta>
+    </datosCliente>
+    <fecha>
+      <anno>2005</anno>
+      <mes>01</mes>
+      <dia>12</dia>
+    </fecha>
+  </infoFacturacion>
+  <infoPedido>
+    <producto iva="21">
+      <referencia>MII93000F/8</referencia>
+      <descripcion>MICRO PENTIUM</descripcion>
+      <cantidad>1</cantidad>
+      <precio>230,00</precio>
+    </producto>
+    <producto iva="21">
+      <referencia>MB8QDIP4</referencia>
+      <descripcion>PLACA BASE QDI P4</descripcion>
+      <cantidad>1</cantidad>
+      <precio>180,00</precio>
+    </producto>
+    <producto iva="21">
+      <referencia>MEDD512M32</referencia>
+      <descripcion>DIMM DDR 512MB 3200</descripcion>
+      <cantidad>2</cantidad>
+      <precio>40,00</precio>
+    </producto>
+    <producto iva="21">
+      <referencia>HD250GSA7</referencia>
+      <descripcion>DISCO DURO 250GB S-ATA</descripcion>
+      <cantidad>4</cantidad>
+      <precio>120,00</precio>
+    </producto>
+    <importe>
+      <baseImponible>970,00</baseImponible>
+      <cuotaIva>155,20</cuotaIva>
+    </importe>
+  </infoPedido>
+</factura>

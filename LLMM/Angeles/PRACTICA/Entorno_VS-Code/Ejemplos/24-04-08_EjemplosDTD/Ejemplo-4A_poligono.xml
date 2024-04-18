@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE polígono SYSTEM "Ejemplo-4_poligono.dtd">
+<polígono>
+  <coordX>12</coordX>
+  <coordY>13</coordY>
+  <coordX>17</coordX>
+  <coordY>23</coordY>
+  <coordX>34</coordX>
+  <coordY>56</coordY>
+</polígono>

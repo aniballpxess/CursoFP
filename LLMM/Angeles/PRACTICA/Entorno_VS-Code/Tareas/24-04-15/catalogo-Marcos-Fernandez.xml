@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros [
+  <!ELEMENT libros (libro, libro, libro)>
+  <!ELEMENT libro (titulo, autor+, paisOrigen, editorial?, precio, anno)>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT autor (#PCDATA)>
+  <!ELEMENT paisOrigen (#PCDATA)>
+  <!ELEMENT editorial (#PCDATA)>
+  <!ELEMENT precio (#PCDATA)>
+  <!ELEMENT anno (#PCDATA)>
+]>
+<libros>
+  <libro>
+    <titulo>Mi Lucha</titulo>
+    <autor>Adolfo</autor>
+    <paisOrigen>Austria</paisOrigen>
+    <precio>44</precio>
+    <anno>1925</anno>
+  </libro>
+  <libro>
+    <titulo>Nuestras vidas</titulo>
+    <autor>Miguel</autor>
+    <autor>Sofía</autor>
+    <paisOrigen>España</paisOrigen>
+    <editorial>Hidalgo</editorial>
+    <precio>33</precio>
+    <anno>2035</anno>
+  </libro>
+  <libro>
+    <titulo>Mis penurias</titulo>
+    <autor>Anibal</autor>
+    <paisOrigen>España</paisOrigen>
+    <precio>7</precio>
+    <anno>2027</anno>
+  </libro>
+</libros>

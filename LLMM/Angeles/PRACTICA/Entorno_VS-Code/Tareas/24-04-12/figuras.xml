@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figuras>
+    <figura forma="2D">
+        <nombre>cuadrado</nombre>
+        <lados>4</lados>
+        <area-total>50</area-total>
+    </figura>
+    <figura forma="2D">
+        <nombre>triángulo</nombre>
+        <per grosor="10">100</per>
+    </figura>
+    <figura forma="3D">
+        <nombre>cubo</nombre>
+    </figura>
+</figuras>

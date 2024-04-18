@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DAM>
+  <modulo>
+    <titulo>EED</titulo>
+    <contenido>
+      <unidad>UT1_Eva1</unidad>
+      <unidad>UT2_Eva1</unidad>
+      <unidad>UT3_Eva2</unidad>
+      <unidad>UT4_Eva2</unidad>
+      <unidad>UT5_Eva3</unidad>
+      <unidad>UT6_Eva3</unidad>
+    </contenido>
+  </modulo>
+  <modulo>
+    <titulo>LLMM</titulo>
+    <contenido>
+      <unidad>HTML</unidad>
+      <unidad>CSS</unidad>
+      <unidad>XHTML</unidad>
+      <unidad>XSL</unidad>
+      <unidad>XML</unidad>
+      <unidad>DTD</unidad>
+    </contenido>
+  </modulo>
+  <modulo>
+    <titulo>Prog</titulo>
+    <contenido>
+      <unidad>Fundamentos-de-programcion</unidad>
+      <unidad>Condicionales-y-bucles</unidad>
+      <unidad>POO</unidad>
+      <unidad>POO-Avanzada</unidad>
+      <unidad>Arrays</unidad>
+      <unidad>Interfaces-graficas</unidad>
+    </contenido>
+  </modulo>
+</DAM>

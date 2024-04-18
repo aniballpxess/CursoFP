@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona [
+  <!ELEMENT persona (nombre, apellidos, edad)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT apellidos (#PCDATA)>
+  <!ELEMENT edad (#PCDATA)>
+]>
+<persona>
+  <nombre>Antonio</nombre>
+  <apellidos>Pérez</apellidos>
+  <edad>35</edad>
+</persona>

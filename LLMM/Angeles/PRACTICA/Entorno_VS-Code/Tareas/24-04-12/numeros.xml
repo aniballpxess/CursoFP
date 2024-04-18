@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<numeros>Los numeros son:
+    <numero1 letras="uno">1</numero1>
+    <numero2 letras="dos">2</numero2>
+    <numero6 letras="seis">6</numero6>
+    <numero50 letras="cincuenta">50</numero50>
+</numeros>

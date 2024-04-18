@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cartelera [
+  <!ELEMENT cartelera (pelicula+)>
+  <!ELEMENT pelicula (infoEstreno, infoTecnica, infoGeneral)>
+  <!ELEMENT infoEstreno (titulo, tituloOriginal?, paisOrigen, annoEstreno)>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT tituloOriginal (#PCDATA)>
+  <!ELEMENT paisOrigen (#PCDATA)>
+  <!ELEMENT annoEstreno (#PCDATA)>
+  <!ELEMENT infoTecnica (duracion, director+, interpretes)>
+  <!ELEMENT duracion (#PCDATA)>
+  <!ELEMENT director (#PCDATA)>
+  <!ELEMENT interpretes (actor*)>
+  <!ELEMENT actor (#PCDATA)>
+  <!ELEMENT infoGeneral (sinopsis, masInfo*, clasificacion?)>
+  <!ELEMENT sinopsis (#PCDATA)>
+  <!ELEMENT masInfo (#PCDATA)>
+  <!ELEMENT clasificacion EMPTY>
+  <!ATTLIST clasificacion tipo (tp|8|12|16|18) #IMPLIED>
+]>
+<cartelera>
+  <pelicula>
+    <infoEstreno>
+      <titulo>AQUELLAS JUERGAS UNIVERSITARIAS</titulo>
+      <tituloOriginal>Old School</tituloOriginal>
+      <paisOrigen>EEUU</paisOrigen>
+      <annoEstreno>2003</annoEstreno>
+    </infoEstreno>
+    <infoTecnica>
+      <duracion>93</duracion>
+      <director>Todd Phillips</director>
+      <interpretes>
+        <actor>Will Ferrell</actor>
+        <actor>Luke Wilson</actor>
+        <actor>Vince Vaughn</actor>
+        <actor>Jeremy Piven</actor>
+        <actor>Juliette Lewis</actor>
+        <actor>Sean William Scott</actor>
+      </interpretes>
+    </infoTecnica>
+    <infoGeneral>
+      <sinopsis>Mitch, Frank y Beanie son tres amigos treintañeros cuyas vidas no son exactamente lo
+        que esperaban. Mitch tiene una novia ninfómana que se mete en la cama con el primero que
+        agarra. Frank se ha casado y su matrimonio nada tiene que ver con las juergas salvajes que
+        organizaban años atrás. Y Beanie es un padre de familia que se muere por recuperar su
+        alocada juventud. Pero las cosas cambian cuando Beanie sugiere que creen su propia
+        fraternidad, en la nueva casa que Mitch tiene junto al campus de la universidad. Una ocasión
+        para revivir tiempos gloriosos, hacer nuevos amigos y de volver a sus viejas, salvajes y
+        desmadradas juergas de estudiantes.</sinopsis>
+      <masInfo>http://www.oldschool-themovie.com/</masInfo>
+      <clasificacion tipo="16" />
+    </infoGeneral>
+  </pelicula>
+  <pelicula>
+    <infoEstreno>
+      <titulo>Matrix</titulo>
+      <tituloOriginal>The Matrix</tituloOriginal>
+      <paisOrigen>EEUU</paisOrigen>
+      <annoEstreno>1999</annoEstreno>
+    </infoEstreno>
+    <infoTecnica>
+      <duracion>131</duracion>
+      <director>Lilly Wachowski</director>
+      <director>Lana Wachowski</director>
+      <interpretes>
+        <actor>Keanu Reeves</actor>
+        <actor>Laurence Fishburne</actor>
+        <actor>Carrie-Anne Moss</actor>
+        <actor>Hugo Weaving</actor>
+        <actor>Joe Pantoliano</actor>
+        <actor>Marcus Chong</actor>
+        <actor>Matt Doran</actor>
+        <actor>Rowan Witt</actor>
+        <actor>Gloria Foster</actor>
+        <actor>Anthony Ray Parker</actor>
+        <actor>Julian Arahanga</actor>
+        <actor>Belinda McClory</actor>
+        <actor>Paul Goddard</actor>
+        <actor>Robert Taylor </actor>
+        <actor>Ada Nicodemou</actor>
+      </interpretes>
+    </infoTecnica>
+    <infoGeneral>
+      <sinopsis>Thomas Anderson es un brillante programador de una respetable compañía de software.
+        Pero fuera del trabajo es Neo, un hacker que un día recibe una misteriosa visita...</sinopsis>
+        <masInfo>https://www.filmaffinity.com/es/film932476.html</masInfo>
+        <clasificacion tipo="18" />
+    </infoGeneral>
+  </pelicula>
+</cartelera>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bandeja-de-Entrada>
+  <Mensaje id="0001">
+    <Nombre>Miguel</Nombre>
+    <Apellidos>Fernández Peralta</Apellidos>
+    <Fecha>2024-02-24</Fecha>
+    <Contenido>Hola, bienvenido al insituto IES Barajas, espero que tu experiencia sea tan plácida como la mía.</Contenido>
+  </Mensaje>
+  <Mensaje id="0002">
+    <Nombre>Laura</Nombre>
+    <Apellidos>Márquez Pérez</Apellidos>
+    <Fecha>2022-03-09</Fecha>
+    <Contenido>Hola,¿qué tal estás? Espero que bien. Yo estoy super felíz de poder disfrutar de esta oportunidad de tomar este curso contigo.</Contenido>
+  </Mensaje>
+</Bandeja-de-Entrada>

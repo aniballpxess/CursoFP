@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Archivo directorio.dtd -->
+<!ELEMENT directorio (persona)+ >
+<!ELEMENT persona (#PCDATA) >
+<!ATTLIST persona id ID #REQUIRED
+                  madre IDREF #IMPLIED
+                  padre IDREF #IMPLIED> 
