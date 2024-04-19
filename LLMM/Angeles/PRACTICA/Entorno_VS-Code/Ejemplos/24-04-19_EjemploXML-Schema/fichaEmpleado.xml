@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ficha xsi:noNamespaceSchemaLocation="fichaEmpleado.xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <empleado>Laura Naharros</empleado>
+  <mes>8</mes>
+  <turno>tarde</turno>
+  <telefono>
+    <prefijo>953</prefijo>
+    <numero>5698468</numero>
+  </telefono>
+  <id numeroid="0"></id>
+  <familia>
+    <familiar>madre</familiar>
+    <familiar>padre</familiar>
+  </familia>
+</ficha>

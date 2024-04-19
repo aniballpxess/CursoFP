@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ficha">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="empleado" />
+        <xs:element ref="mes" />
+        <xs:element ref="turno" />
+        <xs:element ref="telefono" maxOccurs="unbounded" />
+        <xs:element ref="id" />
+        <xs:choice>
+          <xs:element name="anios" type="edad" />
+          <xs:element name="familia" type="familiares" />
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="empleado" type="xs:string" />
+  <xs:element name="mes">
+    <xs:simpleType>
+      <xs:restriction base="xs:integer">
+        <xs:minInclusive value="1" />
+        <xs:maxInclusive value="12" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="turno">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="mañana" />
+        <xs:enumeration value="tarde" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="id">
+    <xs:complexType>
+      <xs:attribute name="numeroid" type="xs:integer" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="telefono">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="prefijo" type="xs:integer" />
+        <xs:element name="numero" type="xs:integer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="edad">
+    <xs:restriction base="xs:integer">
+      <xs:totalDigits value="2" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="familiares">
+    <xs:sequence>
+      <xs:element name="familiar" type="xs:string" maxOccurs="unbounded">
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
