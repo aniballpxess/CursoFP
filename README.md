@@ -45,11 +45,10 @@ Basándonos es esto, básica estructura del repositorio es la siguiente:
 Viendo este esquema, los contenidos esperables tanto en **PRACTICA** como en **TEORIA** son los siguientes:
 
 - **PRACTICA:** Los ejercicios/ejemplos/practicas/entregas/etc y cualquier cosa relacionada directamente con ellos enunciados/"chuletas"/etc
-- **TEORIA:**   Los PDFs que sirven como esquemas/apuntes proporcionados por los profesores (sin conexión directa con las prácticas/ejercicios)
+- **TEORIA:**   Los PDFs que sirven como esquemas/apuntes proporcionados por los profesores (normalmente sin conexión directa con las prácticas/ejercicios)
 
 <h3>Notas sobre el repositorio</h3>
 
-- Más allá de esta básica estructura, el orden y estructura de los ficheros astá abierto a cambios. Aunque siempre trato de hacer que estos tengan sentido. Por ejemplo, si tengo un entorno de VS Code creado para las prácticas de LLMM, el directorio raiz del entorno contendrá "entrono" en el nombre
-- La principal diferencia en **PRACTICA** y **TEORIA** es que en la primera suele estar casi todo el contenido de la asignatura (FOL es una clara excepción a esto), mientras que en la segunda sólo vais a encontrar los PDFs con la teoría y apuntes que los profes nos han dado (casi nunca asociada directamente a los ejercicios prácticos)
+- Más allá de la básica estructura descrita arriba la estructura y nombre de los ficheros y directorios astá abierto a cambios, aunque siempre trato de hacer que tengan sentido. Por ejemplo, si tengo un entorno de VS Code creado para las prácticas de LLMM, el directorio raiz del entorno contendrá "entrono" en el nombre
 - Como estoy aprendiendo las asignaturas de Prog y BBDD por mi cuenta, no deberíais de esperar que estos directorios estén bien actualizados hasta prácticamente casi haber acabado el curso
 - La razón por la que la asignatura de LLMM tiene una estructura diferente es, obviamente, porque hemos tenido 2 profesoras diferentes dandonos clase y consideré importante separar los contenidos de ambas pues tenía esperanza de que Piluca se reincorporase. Debido a que este no ha sido el caso el directorio de Piluca es prácticamente irrelevante en términos de contenido, pero he considerado importante conservarlo igualmente
