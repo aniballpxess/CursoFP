@@ -1,17 +1,30 @@
-/* VALORES GENÉRICOS */
+/* DISEÑO DE LA PÁGINA */
 
 * {
   margin: 0;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
   background-color: #afffff;
 }
-h1,
+
+/* Los títulos */
+
+h1 {
+  font-size: 24pt;
+  color: #FF7F11;
+}
 h2 {
-  text-align: center;
+  font-size: 20pt;
+  color: #247BA0;
+}
+h3 {
+  font-size: 16pt;
+  color: #FF1654;
 }
 
-/* Estructura de la página */
+/* La estructura de la página */
 
 div.estructura {
   width: fit-content;
@@ -35,7 +48,7 @@ div.c1 {
  max-width: auto;
 }
 
-/* Forma básica de los ejemplos */
+/* Los ejemplos */
 
 div.ejemplo {
   width: fit-content;
@@ -52,17 +65,20 @@ div.accion {
   justify-content: center;
   align-items: center;
 }
+div.accion:hover {
+  background-color: gold;
+}
 div.espacio {
-  width: 190px;
-  height: 160px;
+  width: 240px;
+  height: 210px;
 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 div.caja {
-  width: 86px;
-  height: 56px;
+  width: 92px;
+  height: 60px;
   background-color: red;
 
   border: solid 2px black;
@@ -75,91 +91,87 @@ div.cuadro {
   border: solid 2px black;
 }
 
-/* ANIMACIONES */
+/* TRANSICIONES */
 
-div.accion:hover {
-  background-color: gold;
-}
+/* Tipos de transformaciones 2D */
 
-/* Tipos de transformaciones */
-
-div#c11 {
+div#t11 {
   transition: all 2.2s linear 0s;
 }
-div.accion:hover ~ div.espacio > div#c11 {
+div.accion:hover ~ div.espacio > div#t11 {
   background-color: blue;
   transform: rotate(180deg);
 }
 
-div#c12 {
+div#t12 {
   transition: all 1s linear 0s;
 }
-div.accion:hover ~ div.espacio > div#c12 {
+div.accion:hover ~ div.espacio > div#t12 {
   background-color: blue;
   transform: scale(150%, 75%);
 }
 
-div#c13 {
+div#t13 {
   transition: all 0.8s linear 0s;
 }
-div.accion:hover ~ div.espacio > div#c13 {
+div.accion:hover ~ div.espacio > div#t13 {
   background-color: blue;
-  transform: translate(20px, 40px);
+  transform: translate(50px, 55px);
 }
 
-div#c14 {
+div#t14 {
   transition: all 1s linear 0s;
 }
-div.accion:hover ~ div.espacio > div#c14 {
+div.accion:hover ~ div.espacio > div#t14 {
   background-color: blue;
   transform: skew(20deg, 20deg);
 }
 
 /* Funciones de velocidad genéricas */
 
-div#c21 {
+div#t21 {
   transition: all 6s ease 0s;
 }
-div.accion:hover ~ div.espacio > div#c21 {
+div.accion:hover ~ div.espacio > div#t21 {
   background-color: greenyellow;
   transform: rotate(720deg);
 }
 
-div#c22 {
+div#t22 {
   transition: all 6s linear 0s;
 }
-div.accion:hover ~ div.espacio > div#c22 {
+div.accion:hover ~ div.espacio > div#t22 {
   background-color: greenyellow;
   transform: rotate(720deg);
 }
 
-div#c23 {
+div#t23 {
   transition: all 6s ease-in 0s;
 }
-div.accion:hover ~ div.espacio > div#c23 {
+div.accion:hover ~ div.espacio > div#t23 {
   background-color: greenyellow;
   transform: rotate(720deg);
 }
 
-div#c24 {
+div#t24 {
   transition: all 6s ease-out 0s;
 }
-div.accion:hover ~ div.espacio > div#c24 {
+div.accion:hover ~ div.espacio > div#t24 {
   background-color: greenyellow;
   transform: rotate(720deg);
 }
 
-div#c25 {
+div#t25 {
   transition: all 6s ease-in-out 0s;
 }
-div.accion:hover ~ div.espacio > div#c25 {
+div.accion:hover ~ div.espacio > div#t25 {
   background-color: greenyellow;
   transform: rotate(720deg);
 }
 
-/* Ejemplos de Animaciones Compuestas */
+/* Ejemplos de transiciones compuestas */
 
-div#c31 {
+div#t31 {
   width: 92px;
   height: 92px;
   background-color: #505050;
@@ -167,7 +179,7 @@ div#c31 {
 
   transition: all 4s ease 0s;
 }
-div.accion:hover ~ div.espacio > div#c31 {
+div.accion:hover ~ div.espacio > div#t31 {
   width: 60px;
   height: 60px;
   background-color: turquoise;
@@ -175,7 +187,7 @@ div.accion:hover ~ div.espacio > div#c31 {
   transform: rotate(1125deg) skew(10deg, 10deg);
 }
 
-div#c32 {
+div#t32 {
   width: 92px;
   height: 92px;
   border-radius: 50%;
@@ -185,10 +197,109 @@ div#c32 {
   
   transition: all 4s ease 0s;
 }
-div.accion:hover ~ div.espacio > div#c32 {
+div.accion:hover ~ div.espacio > div#t32 {
   width: 84px;
   height: 84px;
   background-position: 90% 90%;
 }
 
-/* EJEMPLOS ANIMACIONES */
+/* ANIMACIONES */
+
+@keyframes mover_simple {
+  from {
+    background-color: blue;
+  }
+  to {
+    transform: translate(60px, 50px);
+    background-color: cadetblue;
+  }
+}
+@keyframes mover_compuesto {
+  0% {
+    background-color: blue;
+  }
+  20% {
+    transform: translate(60px, 50px);
+    background-color: cadetblue;
+  }
+  40% {
+    transform: translate(-60px, 50px);
+  }
+  60% {
+    transform: translate(-60px, -50px);
+  }
+  80% {
+    transform: translate(60px, -50px);
+    background-color: cadetblue;
+  }
+  100% {
+    background-color: blue;
+  }
+}
+@keyframes girar {
+  50% {
+    transform: rotate(180deg);
+    background-color: cadetblue;
+  }
+  100% {
+    transform: rotate(360deg);
+    background-color: blue;
+  }
+}
+@keyframes ida_y_vuelta {
+
+}
+
+/* Estructuración de la animación */
+
+div.accion:hover ~ div.espacio > div#a11 {
+  animation: mover_simple 1s linear 0s 1 normal forwards;
+}
+div.accion:hover ~ div.espacio > div#a12 {
+  animation: mover_compuesto 5s linear 0s 1 normal forwards;
+}
+
+/* Repetición de la animación */
+
+div#a21 {}
+div.accion:hover ~ div.espacio > div#a21 {
+  animation: girar 2s linear 0s 1 normal forwards;
+}
+
+div#a22 {}
+div.accion:hover ~ div.espacio > div#a22 {
+  animation: girar 2s linear 0s 3 normal forwards;
+}
+
+div#a23 {}
+div.accion:hover ~ div.espacio > div#a23 {
+  animation: girar 2s linear 0s infinite normal forwards;
+}
+
+/* Dirección de la animación */
+
+div#a31 {}
+div.accion:hover ~ div.espacio > div#a31 {}
+
+div#a32 {}
+div.accion:hover ~ div.espacio > div#a32 {}
+
+div#a33 {}
+div.accion:hover ~ div.espacio > div#a33 {}
+
+div#a34 {}
+div.accion:hover ~ div.espacio > div#a34 {}
+
+/* Relleno fuera de la animación */
+
+div#a41 {}
+div.accion:hover ~ div.espacio > div#a41 {}
+
+div#a42 {}
+div.accion:hover ~ div.espacio > div#a42 {}
+
+div#a43 {}
+div.accion:hover ~ div.espacio > div#a43 {}
+
+div#a44 {}
+div.accion:hover ~ div.espacio > div#a44 {}
