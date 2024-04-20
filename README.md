@@ -42,6 +42,11 @@ Basándonos es esto, básica estructura del repositorio es la siguiente:
             PRACTICA
             TEORIA
 
+Viendo este esquema, los contenidos esperables tanto en **PRACTICA** como en **TEORIA** son los siguientes:
+
+- **PRACTICA:** Los ejercicios/ejemplos/practicas/entregas/etc y cualquier cosa relacionada directamente con ellos enunciados/"chuletas"/etc
+- **TEORIA:**   Los PDFs que sirven como esquemas/apuntes proporcionados por los profesores (sin conexión directa con las prácticas/ejercicios)
+
 <h3>Notas sobre el repositorio</h3>
 
 - Más allá de esta básica estructura, el orden y estructura de los ficheros astá abierto a cambios. Aunque siempre trato de hacer que estos tengan sentido. Por ejemplo, si tengo un entorno de VS Code creado para las prácticas de LLMM, el directorio raiz del entorno contendrá "entrono" en el nombre
