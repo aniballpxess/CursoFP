@@ -7,7 +7,7 @@
   font-size: 1rem;
 }
 body {
-  background-color: #afffff;
+  background-color: #afdbff;
 }
 
 /* Los títulos */
@@ -30,10 +30,10 @@ h3 {
 div.estructura {
   width: fit-content;
   height: fit-content;
-
+  
   margin: 0 auto;
   padding: 50px 50px 50px 50px;
-
+  
   display: grid;
   justify-items: center;
   gap: 50px 0;
@@ -43,10 +43,6 @@ div.contenido {
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px 40px;
-}
-div.c1 {
-  /* CAMBIAR PARA HACER LA PÁGINA SÓLIDA */
- max-width: auto;
 }
 
 /* Los ejemplos */
@@ -72,7 +68,7 @@ div.accion:hover {
 div.espacio {
   width: 240px;
   height: 210px;
-
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,14 +77,14 @@ div.caja {
   width: 92px;
   height: 60px;
   background-color: red;
-
+  
   border: solid 2px black;
 }
 div.cuadro {
   width: 68px;
   height: 68px;
   background-color: blue;
-
+  
   border: solid 2px black;
 }
 
@@ -97,6 +93,7 @@ div.cuadro {
 /* Tipos de transformaciones 2D */
 
 div#t11 {
+  background-color: red;
   transition: all 2.2s linear 0s;
 }
 div.accion:hover ~ div.espacio > div#t11 {
@@ -177,7 +174,7 @@ div#t31 {
   height: 92px;
   background-color: #505050;
   border-radius: 50%;
-
+  
   transition: all 4s ease 0s;
 }
 div.accion:hover ~ div.espacio > div#t31 {
@@ -337,20 +334,37 @@ div.accion:hover ~ div.espacio > div#a34 {
 /* Relleno fuera de la animación */
 
 div.accion:hover ~ div.espacio > div#a41 {
-  animation: vuelta_completa 5s linear 2s 1 normal none;
+  animation: vuelta_completa 4s linear 1.2s 1 normal none;
 }
 div.accion:hover ~ div.espacio > div#a42 {
-  animation: vuelta_completa 5s linear 2s 1 normal forwards;
+  animation: vuelta_completa 4s linear 1.2s 1 normal forwards;
 }
 div.accion:hover ~ div.espacio > div#a43 {
-  animation: vuelta_completa 5s linear 2s 1 normal backwards;
+  animation: vuelta_completa 4s linear 1.2s 1 normal backwards;
 }
 div.accion:hover ~ div.espacio > div#a44 {
-  animation: vuelta_completa 5s linear 2s 1 normal both;
+  animation: vuelta_completa 4s linear 1.2s 1 normal both;
 }
 
 /* MEDIA RESPONSIVE */
 
-@media only screen and (min-resolution: 200dpi) {
-  
+@media only screen and (max-width: 636px) {
+  body {
+    background-color: #ffdfaf;
+  }
+}
+@media only screen and (max-width: 916px) and (min-width: 637px) {
+  body {
+    background-color: #e3ffaf;
+  }
+}
+@media only screen and (max-width: 1196px) and (min-width: 917px) {
+  body {
+    background-color: #afffda;
+  }
+}
+@media only screen and (max-width: 1476px) and (min-width: 1197px) {
+  body {
+    background-color: #afffff;
+  }
 }
