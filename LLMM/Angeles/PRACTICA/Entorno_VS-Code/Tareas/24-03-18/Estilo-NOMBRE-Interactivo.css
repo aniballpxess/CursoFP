@@ -4,6 +4,7 @@
   margin: 0;
   text-align: center;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
 }
 body {
   background-color: #afffff;
@@ -12,15 +13,15 @@ body {
 /* Los títulos */
 
 h1 {
-  font-size: 24pt;
+  font-size: 2rem;
   color: #FF7F11;
 }
 h2 {
-  font-size: 20pt;
+  font-size: 1.67rem;
   color: #247BA0;
 }
 h3 {
-  font-size: 16pt;
+  font-size: 1.33rem;
   color: #FF1654;
 }
 
@@ -211,7 +212,7 @@ div.accion:hover ~ div.espacio > div#t32 {
   }
   to {
     transform: translate(60px, 50px);
-    background-color: cadetblue;
+    background-color: aqua;
   }
 }
 @keyframes mover_compuesto {
@@ -220,7 +221,7 @@ div.accion:hover ~ div.espacio > div#t32 {
   }
   20% {
     transform: translate(60px, 50px);
-    background-color: cadetblue;
+    background-color: aqua;
   }
   40% {
     transform: translate(-60px, 50px);
@@ -230,7 +231,7 @@ div.accion:hover ~ div.espacio > div#t32 {
   }
   80% {
     transform: translate(60px, -50px);
-    background-color: cadetblue;
+    background-color: aqua;
   }
   100% {
     background-color: blue;
@@ -239,7 +240,7 @@ div.accion:hover ~ div.espacio > div#t32 {
 @keyframes girar {
   50% {
     transform: rotate(180deg);
-    background-color: cadetblue;
+    background-color: aqua;
   }
   100% {
     transform: rotate(360deg);
@@ -247,7 +248,54 @@ div.accion:hover ~ div.espacio > div#t32 {
   }
 }
 @keyframes ida_y_vuelta {
-
+  20% {
+    background-color: blue;
+  }
+  25% {
+    transform: translate(60px, 0px);
+  }
+  30% {
+    background-color: aqua;
+  }
+  70% {
+    background-color: aqua;
+  }
+  75% {
+    transform: translate(-60px, 0px);
+  }
+  80% {
+    background-color: blue;
+  }
+}
+@keyframes vuelta_completa {
+  0% {
+    background-color: orangered;
+  }
+  10% {
+    transform: translate(60px, 0px);
+  }
+  20% {
+    background-color: orangered;
+    transform: translate(60px, 50px);
+  }
+  40% {
+    background-color: yellow;
+    transform: translate(-60px, 50px);
+  }
+  60% {
+    background-color: yellow;
+    transform: translate(-60px, -50px);
+  }
+  80% {
+    background-color: orangered;
+    transform: translate(60px, -50px);
+  }
+  90% {
+    transform: translate(60px, 0px);
+  }
+  100% {
+    background-color: orangered;
+  }
 }
 
 /* Estructuración de la animación */
@@ -261,45 +309,48 @@ div.accion:hover ~ div.espacio > div#a12 {
 
 /* Repetición de la animación */
 
-div#a21 {}
 div.accion:hover ~ div.espacio > div#a21 {
   animation: girar 2s linear 0s 1 normal forwards;
 }
-
-div#a22 {}
 div.accion:hover ~ div.espacio > div#a22 {
   animation: girar 2s linear 0s 3 normal forwards;
 }
-
-div#a23 {}
 div.accion:hover ~ div.espacio > div#a23 {
   animation: girar 2s linear 0s infinite normal forwards;
 }
 
 /* Dirección de la animación */
 
-div#a31 {}
-div.accion:hover ~ div.espacio > div#a31 {}
-
-div#a32 {}
-div.accion:hover ~ div.espacio > div#a32 {}
-
-div#a33 {}
-div.accion:hover ~ div.espacio > div#a33 {}
-
-div#a34 {}
-div.accion:hover ~ div.espacio > div#a34 {}
+div.accion:hover ~ div.espacio > div#a31 {
+  animation: ida_y_vuelta 3s linear 0s infinite normal forwards;
+}
+div.accion:hover ~ div.espacio > div#a32 {
+  animation: ida_y_vuelta 3s linear 0s infinite reverse forwards;
+}
+div.accion:hover ~ div.espacio > div#a33 {
+  animation: ida_y_vuelta 3s linear 0s infinite alternate forwards;
+}
+div.accion:hover ~ div.espacio > div#a34 {
+  animation: ida_y_vuelta 3s linear 0s infinite alternate-reverse forwards;
+}
 
 /* Relleno fuera de la animación */
 
-div#a41 {}
-div.accion:hover ~ div.espacio > div#a41 {}
+div.accion:hover ~ div.espacio > div#a41 {
+  animation: vuelta_completa 5s linear 2s 1 normal none;
+}
+div.accion:hover ~ div.espacio > div#a42 {
+  animation: vuelta_completa 5s linear 2s 1 normal forwards;
+}
+div.accion:hover ~ div.espacio > div#a43 {
+  animation: vuelta_completa 5s linear 2s 1 normal backwards;
+}
+div.accion:hover ~ div.espacio > div#a44 {
+  animation: vuelta_completa 5s linear 2s 1 normal both;
+}
 
-div#a42 {}
-div.accion:hover ~ div.espacio > div#a42 {}
+/* MEDIA RESPONSIVE */
 
-div#a43 {}
-div.accion:hover ~ div.espacio > div#a43 {}
-
-div#a44 {}
-div.accion:hover ~ div.espacio > div#a44 {}
+@media only screen and (min-resolution: 200dpi) {
+  
+}
