@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <men:mensaje xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.abrirllave.com/mensaje mensaje.xsd"
+  xsi:schemaLocation="http://www.abrirllave.com/mensaje Ejemplo3_mensaje.xsd"
   xmlns:men="http://www.abrirllave.com/mensaje">
   <origen>
     <nombre>Ana Sanz Tin</nombre>
