@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listaTitulos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="Ejercicio-XSD-3.xsd">
+  <cuaderno>
+    <titulo>Photoshop</titulo>
+    <autor>Michael Karbo</autor>
+    <autor>Peter G. Christiansen</autor>
+    <editorial>PC Cuadernos</editorial>
+    <precio>4</precio>
+  </cuaderno>
+  <cuaderno>
+    <titulo>Cree su página Web (I)</titulo>
+    <autor1>Johann-Christian Hanke</autor1>
+    <editorial>PC Cuadernos</editorial>
+    <descripcion>Introducción a HTML</descripcion>
+    <precio>4</precio>
+  </cuaderno>
+  <cuaderno>
+    <titulo>El registro de Windows</titulo>
+    <autor>David Bosman</autor>
+    <editorial>PC Cuadernos</editorial>
+    <descripcion>Trucos para editar el registro</descripcion>
+    <precio>4</precio>
+  </cuaderno>
+</listaTitulos>

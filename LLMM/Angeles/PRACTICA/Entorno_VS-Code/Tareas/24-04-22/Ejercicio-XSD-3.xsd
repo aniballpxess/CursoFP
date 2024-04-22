@@ -1,0 +1,25 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="listaTitulos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="cuaderno" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titulo" type="xs:normalizedString" />
+              <xs:choice>
+                <xs:element name="autor" type="xs:normalizedString" maxOccurs="unbounded" />
+                <xs:element name="autor1" type="xs:normalizedString" />
+              </xs:choice>
+              <xs:element name="editorial" type="xs:normalizedString" />
+              <xs:element name="descripcion" type="xs:normalizedString" minOccurs="0" />
+              <xs:element name="precio" type="xs:positiveInteger" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+<!-- 
+  He cambiado los nombre de los elementos correspondientes a formato "camelCase" porque me resulta más fácil de leer
+-->

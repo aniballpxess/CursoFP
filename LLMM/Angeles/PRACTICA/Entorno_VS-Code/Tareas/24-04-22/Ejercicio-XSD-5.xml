@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Ejercicio-XSD-5.css" type="text/css"?>
+<grupo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio-XSD-5.xsd">
+  <persona>
+    <nombre >Luis</nombre>
+    <apellido>Pérez</apellido>
+    <apellido>Sierra</apellido>
+    <fechaNacimiento>1999-10-05</fechaNacimiento>
+    <numeroDocumento>33444555</numeroDocumento>
+    <local>true</local>
+  </persona>
+  <persona>
+    <nombre>Marta</nombre>
+    <apellido>Ortega</apellido>
+    <fechaNacimiento>1998-05-23</fechaNacimiento>
+    <numeroDocumento>44556677</numeroDocumento>
+    <local>false</local>
+  </persona>
+</grupo>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="grupo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="persona" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string" minOccurs="1" maxOccurs="1" />
+              <xs:element name="apellido" type="xs:string" minOccurs="1" maxOccurs="2" />
+              <xs:element name="fechaNacimiento" type="xs:date" maxOccurs="1" />
+              <xs:element name="numeroDocumento" type="xs:int" />
+              <xs:element name="local" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+<!-- 
+  He tenido que añadir la etiqueta "sequence" y y la propiedad "maxOccurs=Unbounded" para que el
+  elemento "persona" funcione como aparece en el enunciado 
+-->
+<!--
+  Como bien aparece en el enunciado "minOccurs=1" & "maxOccurs=1" es totalmente innecesario
+  ponerlo porque los elementos están dentro de una secuencia, asi que ese es su valor por defecto
+-->
+<!-- 
+  He cambiado los nombre de los elementos correspondientes a formato "camelCase" porque me resulta más fácil de leer
+-->
+<!-- 
+  El elemento "numeroDocumento" podría estar mejor definido para limitar los dígitos y la polaridad del número
+-->

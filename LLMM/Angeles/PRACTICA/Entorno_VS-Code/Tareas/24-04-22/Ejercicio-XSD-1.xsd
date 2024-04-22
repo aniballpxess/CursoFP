@@ -1,0 +1,44 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="fichasEstudiantes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="fichaEstudiante" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:normalizedString" />
+              <xs:element name="apellidos" type="xs:normalizedString" />
+              <xs:element name="direccion" type="xs:normalizedString" />
+              <xs:element name="codigoPostal" type="tipoCP" />
+              <xs:element name="edad" type="tipoEdad" />
+              <xs:element name="cicloFormativo" type="tipoCiclo" />
+              <xs:element name="claveCiclo" type="tipoClave" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="tipoCP">
+    <xs:restriction base="xs:positiveInteger">
+      <xs:totalDigits value="5"></xs:totalDigits>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoEdad">
+    <xs:restriction base="xs:positiveInteger">
+      <xs:minInclusive value="18" />
+      <xs:maxInclusive value="65" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoCiclo">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="DAM" />
+      <xs:enumeration value="DAW" />
+      <xs:enumeration value="SMR" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoClave">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Za-z0-9]{6}" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

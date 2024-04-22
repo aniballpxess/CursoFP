@@ -1,0 +1,28 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="peliculas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="pelicula" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titulo" type="xs:normalizedString" />
+              <xs:element name="escritor" type="xs:normalizedString" maxOccurs="unbounded" />
+              <xs:element name="productor" type="xs:normalizedString" maxOccurs="unbounded" />
+              <xs:element name="director" type="xs:normalizedString" />
+              <xs:element name="actor" type="xs:normalizedString" minOccurs="0" maxOccurs="unbounded" />
+              <xs:element name="comentario" type="xs:normalizedString" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="tipo" type="tipoPelicula"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="tipoPelicula" >
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="comedia"/>
+      <xs:enumeration value="misterio"/>
+      <xs:enumeration value="dibujos"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

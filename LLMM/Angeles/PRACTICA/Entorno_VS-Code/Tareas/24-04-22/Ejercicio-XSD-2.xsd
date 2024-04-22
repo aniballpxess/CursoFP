@@ -1,0 +1,37 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="empleados">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="empleado" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:normalizedString" />
+              <xs:element name="direccion" type="xs:normalizedString" />
+              <xs:element name="ciudad" type="xs:normalizedString" />
+              <xs:element name="CP" type="tipoCP" minOccurs="0" />
+              <xs:element name="telefono" type="tipoTlfn" maxOccurs="3" />
+              <xs:element name="titulacion" type="tipoTitulo" />
+            </xs:sequence>
+            <xs:attribute name="cod" type="xs:positiveInteger" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="tipoCP">
+    <xs:restriction base="xs:nonNegativeInteger">
+      <xs:totalDigits value="5" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoTlfn">
+    <xs:restriction base="xs:nonNegativeInteger">
+      <xs:totalDigits value="9" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoTitulo">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Técnico" />
+      <xs:enumeration value="Superior" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

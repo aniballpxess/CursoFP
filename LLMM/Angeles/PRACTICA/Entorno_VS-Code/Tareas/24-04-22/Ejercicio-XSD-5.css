@@ -1,0 +1,66 @@
+grupo {
+  display:block;
+  width: 600px;
+  height: 400px;
+  background-color: #afa3f0;
+}
+persona {
+  display: inherit;
+  margin: 24px 12px 24px 12px;
+  padding: 12px;
+  background-color: #ffef93;
+  border: solid 4px red;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+nombre {
+  display: inline-block;
+  color: green;
+  text-decoration: underline blue;
+  font-size: 36px;
+  font-family: inherit;
+  font-weight: inherit;
+}
+apellido {
+  display: inline-block;
+  color: green;
+  text-decoration: underline blue;
+  font-size: 36px;
+  font-family: inherit;
+  font-weight: inherit;
+}
+fechaNacimiento::before {
+  margin: 0 0 0 24px;
+  content: "F.Nacimiento:";
+  color: brown;
+}
+fechaNacimiento {
+  display: block;
+  color: blue;
+  font-size: 24px;
+  font-family: inherit;
+  font-weight: inherit;
+}
+numeroDocumento::before {
+  margin: 0 0 0 24px;
+  content: "DNI:";
+  color: brown;
+}
+numeroDocumento {
+  display: block;
+  color: blue;
+  font-size: 24px;
+  font-family: inherit;
+  font-weight: inherit;
+}
+local::before {
+  margin: 0 0 0 24px;
+  content: "Local:";
+  color: brown;
+}
+local {
+  display: block;
+  font-size: 24px;
+  font-family: inherit;
+  font-weight: inherit;
+}

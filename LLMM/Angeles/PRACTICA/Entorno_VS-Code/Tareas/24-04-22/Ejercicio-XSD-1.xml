@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fichasEstudiantes xsi:noNamespaceSchemaLocation="Ejercicio-XSD-1.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <fichaEstudiante>
+    <nombre>Marcos</nombre>
+    <apellidos>Fernández Ramos</apellidos>
+    <direccion>Calle Honduras 30</direccion>
+    <codigoPostal>28822</codigoPostal>
+    <edad>26</edad>
+    <cicloFormativo>DAM</cicloFormativo>
+    <claveCiclo>DAM666</claveCiclo>
+  </fichaEstudiante>
+  <fichaEstudiante>
+    <nombre>Fernando</nombre>
+    <apellidos>Rodríguez López</apellidos>
+    <direccion>Calle Uruguay 128</direccion>
+    <codigoPostal>28820</codigoPostal>
+    <edad>21</edad>
+    <cicloFormativo>DAW</cicloFormativo>
+    <claveCiclo>daw616</claveCiclo>
+  </fichaEstudiante>
+</fichasEstudiantes>

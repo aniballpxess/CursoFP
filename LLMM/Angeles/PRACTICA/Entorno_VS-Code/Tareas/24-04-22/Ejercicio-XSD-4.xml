@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Ejercicio-XSD-4.xsd">
+  <pelicula tipo="comedia">
+    <titulo>Arizona Baby</titulo>
+    <escritor>Ethan Coen</escritor>
+    <escritor>Joel Coen</escritor>
+    <productor>Ethan Coen</productor>
+    <director>Joel Coen</director>
+    <actor>Nicolas Cage</actor>
+    <actor>Holly Hunter</actor>
+    <actor>John Goodman</actor>
+    <comentario>Una historia de amor con final inusitado.</comentario>
+  </pelicula>
+  <pelicula tipo="misterio">
+    <titulo>Sospechosos Habituales</titulo>
+    <escritor>Christopher McQuarrie</escritor>
+    <productor>Bryan Singer</productor>
+    <productor>Michael McDonnell</productor>
+    <director>Bryan Singer</director>
+    <actor>Stephen Baldwin</actor>
+    <actor>Gabriel Byrne</actor>
+    <actor>Benicio Del Toro</actor>
+    <actor>Chazz Palminteri</actor>
+    <actor>Kevin Pollak</actor>
+    <actor>Kevin Spacey</actor>
+    <comentario>Un crimen con cambios en el argumento.</comentario>
+  </pelicula>
+  <pelicula tipo="dibujos">
+    <titulo>Los aristogatos</titulo>
+    <escritor>Walt Disney</escritor>
+    <productor> Walt Disney </productor>
+    <director> Walt Disney </director>
+  </pelicula>
+</peliculas>

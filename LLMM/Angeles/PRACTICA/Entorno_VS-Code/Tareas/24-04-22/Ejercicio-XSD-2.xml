@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empleados xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="Ejercicio-XSD-2.xsd">
+  <empleado cod="1">
+    <nombre>Ana Pérez Solís</nombre>
+    <direccion>c/ Mayor, 27</direccion>
+    <ciudad>Madrid</ciudad>
+    <CP>28026</CP>
+    <telefono>912345678</telefono>
+    <telefono>655914567</telefono>
+    <titulacion>Superior</titulacion>
+  </empleado>
+  <empleado cod="2">
+    <nombre>Pedro Muñoz Solís</nombre>
+    <direccion>c/ Alcantara, 34</direccion>
+    <ciudad>Madrid</ciudad>
+    <telefono>656123336</telefono>
+    <titulacion>Técnico</titulacion>
+  </empleado>
+</empleados>
