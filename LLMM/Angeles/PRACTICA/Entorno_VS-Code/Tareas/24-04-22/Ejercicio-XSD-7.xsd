@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="fichas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ficha" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string" />
+              <xs:element name="iniciales" type="tipoIniciales" />
+              <xs:element name="edad" type="xs:integer" />
+              <xs:element name="iniciales-al-reves" type="tipoIniciales" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="tipoIniciales">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z][A-Z][A-Z]" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
+<!-- 
+  He extraido la definición del elemento "iniciales" para que también pueda ser usada por el elemento
+"iniciales-al-reves" (esto es suficiente porque el patrón es simétrico).
+ -->
+<!-- 
+  Tratar de hacer que "iniciales-al-revés" sea exactamente el inverso de "iniciales" es algo más fácilmente conseguido a
+  traves de un lenguaje de programación, haciendo una funcion que recorra "nombre" seleccionando la primera letra de cada
+  palabra para crear ambos datos de forma automática sin depender del usuario.
+ -->

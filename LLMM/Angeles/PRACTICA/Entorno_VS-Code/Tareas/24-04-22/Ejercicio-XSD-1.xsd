@@ -20,7 +20,7 @@
   </xs:element>
   <xs:simpleType name="tipoCP">
     <xs:restriction base="xs:positiveInteger">
-      <xs:totalDigits value="5"></xs:totalDigits>
+      <xs:totalDigits value="5" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="tipoEdad">

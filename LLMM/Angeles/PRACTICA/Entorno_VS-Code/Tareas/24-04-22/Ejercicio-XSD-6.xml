@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fichas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="Ejercicio-XSD-6.xsd">
+  <ficha>
+    <nombre>Antonio Machado Ruiz</nombre>
+    <iniciales>AMR</iniciales>
+    <edad>22</edad>
+  </ficha>
+  <ficha>
+    <nombre>Mario Moreno _Moreno_</nombre>
+    <iniciales>MMM</iniciales>
+    <edad>23</edad>
+  </ficha>
+  <ficha>
+    <nombre>Ada Lovelace _Lovelace_</nombre>
+    <iniciales>ALL</iniciales>
+    <edad>24</edad>
+  </ficha>
+  <ficha>
+    <nombre>Pablo Ruiz Picasso</nombre>
+    <iniciales>PRP</iniciales>
+    <edad>24</edad>
+  </ficha>
+</fichas>
+<!-- 
+  He cambiado el nombre del .xsd y por lo tanto la referencia
+ -->
+<!-- 
+  He normalizado los nombres al hacer que cada nombre/apellido empiece por mayúsucla y hacer que todas las fichas tengan
+  2 apellidos. Una forma común de hacer esto (que es lo que yo he hecho) es duplicar el apellido de quien tiene solo uno.
+  De todas formas he rodeado los apellidos duplicados con "_" para que no den lugar a confusión.
+ --> 

@@ -21,14 +21,14 @@
 <!-- 
   He tenido que añadir la etiqueta "sequence" y y la propiedad "maxOccurs=Unbounded" para que el
   elemento "persona" funcione como aparece en el enunciado 
--->
+ -->
 <!--
   Como bien aparece en el enunciado "minOccurs=1" & "maxOccurs=1" es totalmente innecesario
   ponerlo porque los elementos están dentro de una secuencia, asi que ese es su valor por defecto
--->
+ -->
 <!-- 
   He cambiado los nombre de los elementos correspondientes a formato "camelCase" porque me resulta más fácil de leer
--->
+ -->
 <!-- 
   El elemento "numeroDocumento" podría estar mejor definido para limitar los dígitos y la polaridad del número
--->
+ -->

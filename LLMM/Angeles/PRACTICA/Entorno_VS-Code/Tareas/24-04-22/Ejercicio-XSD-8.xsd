@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="registros">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="persona" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="tipoNombre" />
+              <xs:element name="nacimiento" type="tipoFecha" minOccurs="0" />
+              <xs:element name="direccion" type="tipoDireccion" maxOccurs="unbounded" />
+              <xs:choice>
+                <xs:element name="varon" />
+                <xs:element name="hembra" />
+              </xs:choice>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="tipoFecha">
+    <xs:attribute name="anno" type="tipoAnno" />
+    <xs:attribute name="mes" type="tipoMes" />
+    <xs:attribute name="dia" type="tipoDia" />
+  </xs:complexType>
+  <xs:complexType name="tipoDireccion">
+    <xs:sequence>
+      <xs:element name="calle" type="tipoNombre" />
+      <xs:element name="poblacion" type="tipoNombre" />
+      <xs:element name="codPostal" type="tipoCodPostal" />
+      <xs:element name="provincia" type="tipoNombre" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="tipoNombre">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="50" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoAnno">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1900" />
+      <xs:maxInclusive value="2011" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoMes">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Enero" />
+      <xs:enumeration value="Febrero" />
+      <xs:enumeration value="Marzo" />
+      <xs:enumeration value="Abril" />
+      <xs:enumeration value="Mayo" />
+      <xs:enumeration value="Junio" />
+      <xs:enumeration value="Julio" />
+      <xs:enumeration value="Agosto" />
+      <xs:enumeration value="Septiembre" />
+      <xs:enumeration value="Octubre" />
+      <xs:enumeration value="Noviembre" />
+      <xs:enumeration value="Diciembre" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoDia">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="31" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoCodPostal">
+    <xs:restriction base="xs:positiveInteger">
+      <xs:totalDigits value="5" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
+<!-- 
+  He cambiado "Anyo" por "Anno" porque lo prefiero y esoty acostumbrado a leerlo así
+ -->
+<!-- 
+  He eliminado el límite máximo de direcciones que puede tener cada persona al recordar que en Amazon (creo) puedes tener
+  tantas direcciones de entrega como quieras, asi que me ha parecido innecesario limitarlo. Si lo hiciera las limitaría a
+  un máximo de 2 ó 3 (como para un registro civil).
+ -->
