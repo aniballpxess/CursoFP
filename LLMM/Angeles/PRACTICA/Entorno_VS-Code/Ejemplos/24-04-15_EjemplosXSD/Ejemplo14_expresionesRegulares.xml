@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<expresionesRegulares xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:noNamespaceSchemaLocation="Ejemplo14_expresionesRegulares.xsd">
+  <expresiones>
+    <expresion1>Capítulo 0</expresion1>
+    <expresion2>Capítulo 0</expresion2>
+    <expresion3>Capítulo 1</expresion3>
+    <expresion4>Capítulo 0</expresion4>
+    <expresion5>aZ</expresion5>
+    <expresion6>ABBC</expresion6>
+    <expresion7>RSS</expresion7>
+    <expresion8>COD645pera</expresion8>
+  </expresiones>
+  <expresiones>
+    <expresion1>Capítulo 9</expresion1>
+    <expresion2>Capítulo 99</expresion2>
+    <expresion3>Capítulo 99</expresion3>
+    <expresion4>Capítulo 99999</expresion4>
+    <expresion5>?Z</expresion5>
+    <expresion6>ABBBBBC</expresion6>
+    <expresion7>RSSSSSSSSSSS7</expresion7>
+    <expresion8>COD646manzana</expresion8>
+  </expresiones>
+</expresionesRegulares>

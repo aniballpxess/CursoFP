@@ -1,0 +1,26 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="respuestas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="respuesta1">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="[ABCDE]" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="respuesta2">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="A" />
+              <xs:enumeration value="B" />
+              <xs:enumeration value="C" />
+              <xs:enumeration value="D" />
+              <xs:enumeration value="E" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

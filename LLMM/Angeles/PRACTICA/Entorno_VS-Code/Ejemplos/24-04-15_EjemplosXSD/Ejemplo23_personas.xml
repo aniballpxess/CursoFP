@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="Ejemplo23_personas.xsd">
+  <persona><nombre>Eva</nombre> vive en <ciudad>París</ciudad> y tiene <edad>25</edad> años.</persona>
+  <persona><nombre>Giovanni</nombre> vive en <ciudad>Florencia</ciudad> y tiene <edad>26</edad> años.</persona>
+</personas>

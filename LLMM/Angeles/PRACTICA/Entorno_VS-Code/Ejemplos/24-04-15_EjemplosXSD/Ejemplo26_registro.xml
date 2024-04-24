@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="Ejemplo26_registro.xsd">
+  <usuario identificador="U123">
+    <apellidos-y-nombre>Sanz Tapia,Ana</apellidos-y-nombre>
+    <email>asanz@jmail.com</email>
+    <conexiones>
+      <conexión fecha="2014-02-23" hora="19:15:40">122</conexión>
+      <conexión fecha="2014-02-23" hora="20:30:22">617</conexión>
+      <conexión fecha="2014-02-24" hora="11:18:31">25</conexión>
+    </conexiones>
+  </usuario>
+  <usuario identificador="U96">
+    <apellidos-y-nombre>Ruiz Hierro,Pedro</apellidos-y-nombre>
+    <email>pruiz@jotmail.com</email>
+    <conexiones>
+      <conexión fecha="2014-02-25" hora="20:33:55">390</conexión>
+    </conexiones>
+  </usuario>
+  <empleado identificador="E4">
+    <apellidos-y-nombre>Vera Gil,Marta</apellidos-y-nombre>
+    <email>mvera@yajoo.es</email>
+    <conexiones/>
+    <departamento>
+      <marketing />
+    </departamento>
+  </empleado>
+</registro>

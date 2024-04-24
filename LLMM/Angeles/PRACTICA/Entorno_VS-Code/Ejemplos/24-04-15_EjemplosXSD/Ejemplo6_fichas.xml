@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <fichas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:noNamespaceSchemaLocation="EJemplo6_fichas.xsd">
+        xsi:noNamespaceSchemaLocation="EJemplo6_fichas.xsd">
   <ficha numero="1">
     <nombre>Ana Sanz Tin</nombre>
     <edad>22</edad>
