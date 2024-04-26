@@ -8,7 +8,7 @@
             <xs:sequence>
               <xs:element name="nombre" type="xs:string" />
               <xs:element name="iniciales" type="tipoIniciales" />
-              <xs:element name="edad" type="xs:integer" />
+              <xs:element name="edad" type="xs:nonNegativeInteger" />
               <xs:element name="iniciales-al-reves" type="tipoIniciales" />
             </xs:sequence>
           </xs:complexType>
@@ -24,7 +24,11 @@
 </xs:schema>
 <!-- 
   He extraido la definición del elemento "iniciales" para que también pueda ser usada por el elemento
-"iniciales-al-reves" (esto es suficiente porque el patrón es simétrico).
+  "iniciales-al-reves" (esto es suficiente porque el patrón es simétrico).
+ -->
+<!-- 
+  Aunque no es necesario, he cambiado el tipo de dato edad a nonNegativeInteger para que no acepte ningún número que no
+  sea Natural.
  -->
 <!-- 
   Tratar de hacer que "iniciales-al-revés" sea exactamente el inverso de "iniciales" es algo más fácilmente conseguido a

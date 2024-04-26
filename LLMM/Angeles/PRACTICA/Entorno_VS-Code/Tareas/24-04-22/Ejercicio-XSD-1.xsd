@@ -19,8 +19,8 @@
     </xs:complexType>
   </xs:element>
   <xs:simpleType name="tipoCP">
-    <xs:restriction base="xs:positiveInteger">
-      <xs:totalDigits value="5" />
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{5}" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="tipoEdad">
@@ -38,7 +38,7 @@
   </xs:simpleType>
   <xs:simpleType name="tipoClave">
     <xs:restriction base="xs:string">
-      <xs:pattern value="[A-Za-z0-9]{6}" />
+      <xs:pattern value="[A-Za-z0-9]{1,6}" />
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>

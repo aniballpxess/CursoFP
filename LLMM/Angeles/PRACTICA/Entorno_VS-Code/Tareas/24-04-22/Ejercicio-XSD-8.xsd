@@ -66,11 +66,12 @@
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="tipoCodPostal">
-    <xs:restriction base="xs:positiveInteger">
-      <xs:totalDigits value="5" />
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{5}" />
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>
+
 <!-- 
   He cambiado "Anyo" por "Anno" porque lo prefiero y esoty acostumbrado a leerlo así
  -->

@@ -19,19 +19,18 @@
     </xs:complexType>
   </xs:element>
   <xs:simpleType name="tipoCP">
-    <xs:restriction base="xs:nonNegativeInteger">
-      <xs:totalDigits value="5" />
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{5}" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="tipoTlfn">
-    <xs:restriction base="xs:nonNegativeInteger">
-      <xs:totalDigits value="9" />
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{9}" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="tipoTitulo">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Técnico" />
-      <xs:enumeration value="Superior" />
+      <xs:pattern value="Técnico|Superior" />
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>
