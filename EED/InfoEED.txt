@@ -1,4 +1,4 @@
 PROFESOR: Miguel Hermoso Hernando (MIGUEL)
 CORREO: mhermoso@educa.madrid.org
-TAREAS: Ejercicio Eclipse Instalación
+TAREAS: -
 EXÁMENES: 16 May - 3ª Eva - Total
