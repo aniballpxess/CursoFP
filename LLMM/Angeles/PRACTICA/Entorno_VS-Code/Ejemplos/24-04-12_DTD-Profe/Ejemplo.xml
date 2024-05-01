@@ -2,6 +2,6 @@
 <!DOCTYPE mares SYSTEM "Ejemplo.dtd">
 <mares>
   <mar imagen="mediterraneo">
-    <nombre>Mediterráneo</nombre>
+    <nombre>Mar Mediterraneo</nombre>
   </mar>
 </mares>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estructura básica de una pagina</title>
+    <style>
+
+      * {
+        margin: 5px;
+      }
+      body {
+        background: #444;
+        color: #fff;
+        border: 4px solid red;
+      }
+      header {
+        background: #000;
+        border: 4px solid red;
+      }
+      nav {
+        background: orange;
+        border: 4px solid red;
+      }
+      h1,
+      h2 {
+        text-align: center;
+      }
+      li {
+        display: inline-block;
+        font-size: large;
+      }
+      figcaption {
+        border: 4px solid blue;
+        width: 40px;
+        height: 40px;
+      }
+      .contenedor {
+        align-items: center;
+        border: 4px solid red;
+        height: 90vh;
+      }
+      article {
+        background: blueviolet;
+        border: 4px solid blue;
+        width: 55%;
+        height: 97%;
+        margin-left: 22%;
+      }
+      .izquierda {
+        width: 20%;
+        float: left;
+        background: green;
+        border: 4px solid blue;
+        height: 97%;
+      }
+      .derecha {
+        width: 20%;
+        float: right;
+        background: green;
+        border: 4px solid blue;
+        height: 97%;
+      }
+      footer {
+        background: #000;
+        border: 4px solid red;
+      }
+      footer h2 {
+        text-align: center;
+        font-style: italic;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <figure>
+        <figcaption>Logo</figcaption>
+      </figure>
+      <h1>este es el HEADER Bienvenidos a nuestra página web</h1>
+    </header>
+    <nav>
+      <h2>aqui va el NAV para los menus</h2>
+      <ul>
+        <li>opcion 1</li>
+        <li>opcion 2</li>
+        <li>opcion 3</li>
+      </ul>
+    </nav>
+    <div class="contenedor">
+      <aside class="izquierda">
+        <h2>
+          contenido no relevante esto es un ASIDE podria ser tambien un nav con
+          enlaces
+        </h2>
+      </aside>
+      <aside class="derecha">
+        <h2>esto es otro ASIDE para publicidad por ejemplo</h2>
+      </aside>
+      <article>
+        <h2>
+          aqui iria el contenido importante en diferentes articulos por ejemplo
+        </h2>
+      </article>
+    </div>
+    <footer>
+      <h2>esto es el Pie de pag. FOOTER</h2>
+    </footer>
+  </body>
+</html>
