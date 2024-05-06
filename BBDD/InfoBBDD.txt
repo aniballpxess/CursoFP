@@ -1,7 +1,7 @@
 PROFESOR: Manuel Pablo Cantizano González (PABLO)
 CORREO: mcantizano@educa.madrid.org
 TAREAS: -
-EXÁMENES: -
+EXÁMENES: 10 May - Viernes 
 TEMAS TRABAJO:
 	Andrea - libros pedidos y los proveedores
 	Juanra - películas y distribuidores
