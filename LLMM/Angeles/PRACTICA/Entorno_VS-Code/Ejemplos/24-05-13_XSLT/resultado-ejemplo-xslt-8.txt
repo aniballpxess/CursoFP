@@ -1,0 +1,100 @@
+<html>
+   <body>
+      <h2>Nombre de las canciones de los Cds cuyo titulo empeza por C</h2>
+      <ul>
+         <li>
+            <b>nombre del Cd:</b>Cuando un hombre ama a una mujer</li>
+         <li>
+            <b>nombre de las canciones:</b>
+         </li>
+         <ul>
+            <li>Cuando un hombre ama a una mujer</li>
+            <br/>
+            <li>Mi adorable</li>
+            <br/>
+            <li>Ponme un poco de amor</li>
+            <br/>
+            <li>Ámame todo el camino</li>
+            <br/>
+            <li>Cuando Ella Me Toca (Nada Más Importa)</li>
+            <br/>
+            <li>Estás echando agua sobre un hombre que se está ahogando</li>
+            <br/>
+            <li>Ladrón en la noche</li>
+            <br/>
+            <li>Me engañaste</li>
+            <br/>
+            <li>El amor hace girar al mundo</li>
+            <br/>
+            <li>Éxito</li>
+            <br/>
+            <li>Ámame como lo dices en serio</li>
+            <br/>
+         </ul>
+         <li>
+            <b>nombre del Cd:</b>Convirtiendose en piedra</li>
+         <li>
+            <b>nombre de las canciones:</b>
+         </li>
+         <ul>
+            <li>Convirtiéndose en piedra</li>
+            <br/>
+            <li>Fuera de mi camino</li>
+            <br/>
+            <li>Sentimientos en mi corazón</li>
+            <br/>
+            <li>Ángel</li>
+            <br/>
+            <li>Colores en mi mente</li>
+            <br/>
+            <li>Ruleta sexual</li>
+            <br/>
+            <li>Mantengámonos juntos</li>
+            <br/>
+            <li>Salva mi alma</li>
+            <br/>
+            <li>Quiero cantar</li>
+            <br/>
+            <li>Ningun lugar a donde ir</li>
+            <br/>
+            <li>Marywanna</li>
+            <br/>
+         </ul>
+         <li>
+            <b>nombre del Cd:</b>Concierto de Gala de Pavarotti</li>
+         <li>
+            <b>nombre de las canciones:</b>
+         </li>
+         <ul>
+            <li>Oh Noche Santa</li>
+            <br/>
+            <li>Piedad, Signore</li>
+            <br/>
+            <li>Panis Angelicus</li>
+            <br/>
+            <li>Qual Giglio Cándido</li>
+            <br/>
+            <li>AVE María</li>
+            <br/>
+            <li>Jesús Bambino</li>
+            <br/>
+            <li>Che Farò Senza Eurídice?</li>
+            <br/>
+            <li>Cuius animam</li>
+            <br/>
+            <li>Ingemisco</li>
+            <br/>
+            <li>AVE María</li>
+            <br/>
+            <li>Mille Cherubini En Coro</li>
+            <br/>
+            <li>Cordero de Dios</li>
+            <br/>
+            <li>Sanctus</li>
+            <br/>
+            <li>Adeste fideles</li>
+            <br/>
+         </ul>
+      </ul>
+   </body>
+</html>

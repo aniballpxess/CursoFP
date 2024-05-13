@@ -1,0 +1,50 @@
+Se describen a continuación las siguientes  Tablas:
+
+Productos:
+Campos:
+Nombre: El nombre del producto.
+Precio: El precio del producto.
+ID_Fabricante: El identificador único del fabricante del producto.
+Descripción: Esta tabla almacena información sobre los productos vendidos en la tienda en línea. Cada producto tiene un nombre único y un precio asociado. El campo ID_Fabricante actúa como una foreign key que establece una relación con la tabla Fabricantes.
+
+Fabricantes:
+Campos:
+ID: El identificador único del fabricante.
+Nombre: El nombre del fabricante.
+País: El país de origen del fabricante.
+Descripción: Esta tabla contiene información sobre los fabricantes de los productos vendidos en la tienda en línea. Cada fabricante tiene un nombre único y está asociado a un país de origen. El campo ID sirve como primary key.
+
+Clientes:
+Campos:
+ID: El identificador único del cliente.
+Nombre: El nombre del cliente.
+Dirección: La dirección del cliente.
+Correo Electrónico: La dirección de correo electrónico del cliente.
+Descripción: Esta tabla almacena información sobre los clientes que realizan compras en la tienda en línea. Cada cliente tiene un nombre único, una dirección y una dirección de correo electrónico. El campo ID se utiliza como primary key.
+
+Crea las tablas descritas anteriormente.
+
+2) Insertar los siguientes datos:
+ID_CLIENTE	NOMBRE	  DIRECCIÓN	        CORREO_ELECTRÓNICO
+1	Juan Pérez	Calle Principal 123	juan@example.com
+2	María López	Avenida Central 456	maria@example.com
+3	Pedro Martínez	Calle Secundaria 789	pedro@example.com
+
+xxxx
+
+ID_FABRICANTE	NOMBRE	PAÍS
+1	Samsung	Corea del Sur
+2	HP	Estados Unidos
+3	Canon	Japón
+
+xxxxx
+
+ID_PRODUCTO	NOMBRE	PRECIO	ID_FABRICANTE
+1	Teléfono móvil	599.99	1
+2	Laptop	999.99	2
+3	Smartwatch	199.99	1
+
+
+3) Hacer la siguiente subselect:
+
+Calcula el precio promedio de todos los productos en la tabla Productos. Luego, en la consulta principal, seleccionamos los nombres y precios de los productos que tienen un precio superior al precio promedio calculado.

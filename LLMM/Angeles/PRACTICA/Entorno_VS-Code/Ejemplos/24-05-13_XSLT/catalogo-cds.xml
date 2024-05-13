@@ -1,0 +1,1833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ejemplo-xslt-1.xslt"?>
+<catalogo>
+	<cds>
+		<cd cod_cd="01">
+			<titulo>Empire Burlesque</titulo>
+			<artista>Bob Dylan</artista>
+			<pais>USA</pais>
+			<empresa>Columbia</empresa>
+			<precio>10.90</precio>
+			<anio>1985</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>01</cod_cd>
+					<titulo>Estrecha conexión con mi corazón</titulo>
+					<duracion>5,32</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>01</cod_cd>
+					<titulo>Ver el verdadero tú por fin</titulo>
+					<duracion>4,3</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>01</cod_cd>
+					<titulo>Te recordaré</titulo>
+					<duracion>4,2</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>01</cod_cd>
+					<titulo>Niño de corte limpio</titulo>
+					<duracion>4,23</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>01</cod_cd>
+					<titulo>Nunca volveré a ser el mismo</titulo>
+					<duracion>3,01</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>01</cod_cd>
+					<titulo>Confiar en ti mismo</titulo>
+					<duracion>3,43</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>01</cod_cd>
+					<titulo>Emocionalmente tuyo</titulo>
+					<duracion>4,6</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>01</cod_cd>
+					<titulo>Cuando La Noche Viene Cayendo Del Cielo</titulo>
+					<duracion>7,3</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>01</cod_cd>
+					<titulo>Algo se está quemando, bebé</titulo>
+					<duracion>4,85</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>01</cod_cd>
+					<titulo>Ojos oscuros</titulo>
+					<duracion>5,07</duracion>
+				</cancion>
+		</canciones>
+		</cd>
+		<cd cod_cd="02">
+			<titulo>Esconde tu corazon</titulo>
+			<artista>Bonnie Tyler</artista>
+			<pais>UK</pais>
+			<empresa>CBS Records</empresa>
+			<precio>9.90</precio>
+			<anio>1988</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>02</cod_cd>
+					<titulo> Notas de América</titulo>
+					<duracion>4,9</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>02</cod_cd>
+					<titulo>Esconde tu corazón</titulo>
+					<duracion>4,38</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>02</cod_cd>
+					<titulo>No te des la vuelta</titulo>
+					<duracion>4,30</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>02</cod_cd>
+					<titulo>Guarda todas tus lágrimas</titulo>
+					<duracion>4,38</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>02</cod_cd>
+					<titulo>Amar a alguien</titulo>
+					<duracion>5,78</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>02</cod_cd>
+					<titulo>Echa otra mirada a tu corazón</titulo>
+					<duracion>3,77</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>02</cod_cd>
+					<titulo>Lo mejor</titulo>
+					<duracion>4,25</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>02</cod_cd>
+					<titulo>Tímido contigo</titulo>
+					<duracion>3,63</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>02</cod_cd>
+					<titulo>Calles de la pequeña Italia</titulo>
+					<duracion>4,62</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>02</cod_cd>
+					<titulo> Blues de tortuga</titulo>
+					<duracion>4,18</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="03">
+			<titulo>Greatest Hits</titulo>
+			<artista>Dolly Parton</artista>
+			<pais>USA</pais>
+			<empresa>RCA</empresa>
+			<precio>9.90</precio>
+			<anio>1982</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>03</cod_cd>
+					<titulo>De 9 a 5</titulo>
+					<duracion>2,73</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>03</cod_cd>
+					<titulo>Pero sabes que te amo</titulo>
+					<duracion>3,28</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>03</cod_cd>
+					<titulo>Expreso de angustia</titulo>
+					<duracion>3,18</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>03</cod_cd>
+					<titulo>Old Flames no puede sostener una vela para ti</titulo>
+					<duracion>3,37</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>03</cod_cd>
+					<titulo>Aguardiente de manzana</titulo>
+					<duracion>3,42</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>03</cod_cd>
+					<titulo>Yo y el pequeño Andy</titulo>
+					<duracion>2,6</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>03</cod_cd>
+					<titulo>Aquí vienes de nuevo</titulo>
+					<duracion>2,95</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>03</cod_cd>
+					<titulo>Navidad de caramelos duros</titulo>
+					<duracion>3,8</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>03</cod_cd>
+					<titulo>Dos puertas abajo</titulo>
+					<duracion>3,03</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>03</cod_cd>
+					<titulo>Todo está mal, pero está bien</titulo>
+					<duracion>3,32</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>03</cod_cd>
+					<titulo>¿Alguna vez cruzo tu mente?</titulo>
+					<duracion>4,03</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>03</cod_cd>
+					<titulo>Siempre te querré</titulo>
+					<duracion>3,03</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="04">
+			<titulo>Aun tengo el blues</titulo>
+			<artista>Gary Moore</artista>
+			<pais>UK</pais>
+			<empresa>Virgin records</empresa>
+			<precio>10.20</precio>
+			<anio>1990</anio>
+			<canciones>
+					<cancion>
+					<cod_cd>04</cod_cd>
+					<titulo>Hacia adelante</titulo>
+					<duracion>2,67</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>04</cod_cd>
+					<titulo>Oh, mujer bonita</titulo>
+					<duracion>4,43</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>04</cod_cd>
+					<titulo>Caminando solo</titulo>
+					<duracion>2,93</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>04</cod_cd>
+					<titulo>Aún tengo los azules</titulo>
+					<duracion>6,18</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>04</cod_cd>
+					<titulo>Puntal de Texas</titulo>
+					<duracion>4,87</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>04</cod_cd>
+					<titulo>Demasiado cansado</titulo>
+					<duracion>2,85</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>04</cod_cd>
+					<titulo>Rey de los azules</titulo>
+					<duracion>4,62</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>04</cod_cd>
+					<titulo>A medida que pasan los años</titulo>
+					<duracion>7,75</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>04</cod_cd>
+					<titulo>Blues de medianoche</titulo>
+					<duracion>4,98</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>04</cod_cd>
+					<titulo>Ese tipo de mujer</titulo>
+					<duracion>4,5</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>04</cod_cd>
+					<titulo>Todo tu amor</titulo>
+					<duracion>3,7</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>04</cod_cd>
+					<titulo>Deja de jugar</titulo>
+					<duracion>3,88</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="05">
+			<titulo>Eros</titulo>
+			<artista>Eros Ramazzotti</artista>
+			<pais>EU</pais>
+			<empresa>BMG</empresa>
+			<precio>9.90</precio>
+			<anio>1997</anio>
+			<canciones>
+				<cancion>
+				<cod_cd>05</cod_cd>
+				<titulo>Tierra prometida</titulo>
+				<duracion>4,63</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>05</cod_cd>
+					<titulo>Una historia importante</titulo>
+					<duracion>4,08</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>05</cod_cd>
+					<titulo>Ahora tu</titulo>
+					<duracion>4,03</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>05</cod_cd>
+					<titulo>Que hermoso amor</titulo>
+					<duracion>4,2</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>05</cod_cd>
+					<titulo>Música y</titulo>
+					<duo_con>Andrea Bocelli</duo_con>
+					<duracion>9,77</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>05</cod_cd>
+					<titulo>Ojos de esperanza</titulo>
+					<duracion>3,32</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>05</cod_cd>
+					<titulo>Lo mejor</titulo>
+					<duracion>4,4</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>05</cod_cd>
+					<titulo>Memoria</titulo>
+					<duracion>3,52</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>05</cod_cd>
+					<titulo>Cosas de la vida / No puedo dejar de pensar en ti</titulo>
+					<duo_con> Tina Turner</duo_con>
+					<duracion>4,8</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>05</cod_cd>
+					<titulo>La aurora</titulo>
+					<duracion>5,53</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>05</cod_cd>
+					<titulo>Todavía un minuto de sol</titulo>
+					<duracion>3,93</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>05</cod_cd>
+					<titulo>Casi amor</titulo>
+					<duracion>5,13</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>05</cod_cd>
+					<titulo>Si una canción fuera suficiente</titulo>
+					<duracion>5,37</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>05</cod_cd>
+					<titulo>Otro tú</titulo>
+					<duracion>4,67</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>05</cod_cd>
+					<titulo>Fábula</titulo>
+					<duracion>4,38</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>05</cod_cd>
+					<titulo>Cuanto amor eres</titulo>
+					<duracion>4,27</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="06">
+			<titulo>Aguas tranquilas</titulo>
+			<artista>Bee Gees</artista>
+			<pais>UK</pais>
+			<empresa>Polydor</empresa>
+			<precio>10.90</precio>
+			<anio>1997</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>06</cod_cd>
+					<titulo>Solo</titulo>
+					<duracion>4,83</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>06</cod_cd>
+					<titulo>Me rindo</titulo>
+					<duracion>4,3</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>06</cod_cd>
+					<titulo>No puedo amarte más</titulo>
+					<duracion>3,72</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>06</cod_cd>
+					<titulo>Las aguas tranquilas son profundas</titulo>
+					<duracion>4,13</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>06</cod_cd>
+					<titulo>La oración de mi amante</titulo>
+					<duracion>4,00</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>06</cod_cd>
+					<titulo>con los ojos cerrados</titulo>
+					<duracion>4,32</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>06</cod_cd>
+					<titulo>Fuerza irresistible</titulo>
+					<duracion>4,58</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>06</cod_cd>
+					<titulo>Más cerca que cerca</titulo>
+					<duracion>4,57</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>06</cod_cd>
+					<titulo>Voy a</titulo>
+					<duracion>5,13</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>06</cod_cd>
+					<titulo>obsesiones</titulo>
+					<duracion>4,72</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>06</cod_cd>
+					<titulo>Los milagros ocurren</titulo>
+					<duracion>4,2</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>06</cod_cd>
+					<titulo>Humo y espejos</titulo>
+					<duracion>5,00</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="07">
+			<titulo>Un poco más</titulo>
+			<artista>Dr.Hook</artista>
+			<pais>UK</pais>
+			<empresa>Capitol</empresa>
+			<precio>8.10</precio>
+			<anio>1976</anio>
+			<canciones>
+					<cancion>
+						<cod_cd>07</cod_cd>
+						<titulo>Más como las películas</titulo>
+						<duracion>3,72</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>07</cod_cd>
+					<titulo>Un poco más</titulo>
+					<duracion>3,23</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>07</cod_cd>
+					<titulo>La radio</titulo>
+					<duracion>3,47</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>07</cod_cd>
+					<titulo>Arriba en la montaña</titulo>
+					<duracion>2,63</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>07</cod_cd>
+					<titulo>Si no tu</titulo>
+					<duracion>3,25</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>07</cod_cd>
+					<titulo>Selva al zoológico</titulo>
+					<duracion>3,37</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>07</cod_cd>
+					<titulo>Proyecto de ley de mal ojo</titulo>
+					<duracion>2,37</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>07</cod_cd>
+					<titulo>Tú que tal</titulo>
+					<duracion>2,83</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>07</cod_cd>
+					<titulo>Necesito lo alto</titulo>
+					<duracion>3,57</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>07</cod_cd>
+					<titulo>Un par de años más</titulo>
+					<duracion>3,12</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="08">
+			<titulo>Maggie May</titulo>
+			<artista>Rod Stewart</artista>
+			<pais>UK</pais>
+			<empresa>Pickwick</empresa>
+			<precio>8.50</precio>
+			<anio>1990</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>08</cod_cd>
+					<titulo>Maggie puede</titulo>
+					<duracion>5,23</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>08</cod_cd>
+					<titulo>Dulce Little Rock 'N' Roller</titulo>
+					<duracion>3,72</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>08</cod_cd>
+					<titulo>Razón para creer</titulo>
+					<duracion>3,80</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>08</cod_cd>
+					<titulo>¡Vaya! no no mi bebe</titulo>
+					<duracion>3,55</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>08</cod_cd>
+					<titulo>Marinero</titulo>
+					<duracion>3,60</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>08</cod_cd>
+					<titulo>Viento de mandolina</titulo>
+					<duracion>5,45</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>08</cod_cd>
+					<titulo>Torciendo la noche lejos</titulo>
+					<duracion>3,20</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>08</cod_cd>
+					<titulo>Hombre de tristeza constante</titulo>
+					<duracion>2,57</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>08</cod_cd>
+					<titulo>Hombre luchador callejero</titulo>
+					<duracion>5,08</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>08</cod_cd>
+					<titulo>chica del país del norte</titulo>
+					<duracion>3,88</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>08</cod_cd>
+					<titulo>Ángel</titulo>
+					<duracion>4,08</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>08</cod_cd>
+					<titulo>Todo ha terminado ahora</titulo>
+					<duracion>6,38</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="09">
+			<titulo>Romanza</titulo>
+			<artista>Andrea Bocelli</artista>
+			<pais>Italia</pais>
+			<empresa>Polydor</empresa>
+			<precio>10.80</precio>
+			<anio>1996</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>09</cod_cd>
+					<titulo>Me iré contigo</titulo>
+					<duracion>4,15</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>09</cod_cd>
+					<titulo>Vivir</titulo>
+					<duracion>4,02</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>09</cod_cd>
+					<titulo>Por amor</titulo>
+					<duracion>4,68</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>09</cod_cd>
+					<titulo>El mar de la tarde en calma</titulo>
+					<duracion>4,67</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>09</cod_cd>
+					<titulo>Caruso</titulo>
+					<duracion>5,27</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>09</cod_cd>
+					<titulo>Máquinas de guerra</titulo>
+					<duracion>4,13</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>09</cod_cd>
+					<titulo>La palabra asesina</titulo>
+					<duracion>3,95</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>09</cod_cd>
+					<titulo>Yo vivo por ella</titulo>
+					<duracion>4,38</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>09</cod_cd>
+					<titulo>Romance</titulo>
+					<duracion>3,68</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>09</cod_cd>
+					<titulo>La luna que no está</titulo>
+					<duracion>4,50</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>09</cod_cd>
+					<titulo>Rapsodia</titulo>
+					<duracion>5,47</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>09</cod_cd>
+					<titulo>Quiero quedarme así</titulo>
+					<duracion>3,85</duracion>
+				</cancion>	
+				<cancion>
+					<cod_cd>09</cod_cd>
+					<titulo>Y Chioves</titulo>
+					<duracion>4,35</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>09</cod_cd>
+					<titulo>A lastimar</titulo>
+					<duracion>4,08</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>09</cod_cd>
+					<titulo>Teleférico Teleférico</titulo>
+					<duracion>1,65</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>09</cod_cd>
+					<titulo>Un tributo a Henri Maske</titulo>
+					<duracion>4,07</duracion>
+				</cancion>	
+			</canciones>
+		</cd>	
+		<cd cod_cd="10">
+			<titulo>Cuando un hombre ama a una mujer</titulo>
+			<artista>Percy Sledge</artista>
+			<pais>USA</pais>
+			<empresa>Atlantic</empresa>
+			<precio>8.70</precio>
+			<anio>1966</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>10</cod_cd>
+					<titulo>Cuando un hombre ama a una mujer</titulo>
+					<duracion>2,92</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>10</cod_cd>
+					<titulo>Mi adorable</titulo>
+					<duracion>2,70</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>10</cod_cd>
+					<titulo>Ponme un poco de amor</titulo>
+					<duracion>2,72</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>10</cod_cd>
+					<titulo>Ámame todo el camino</titulo>
+					<duracion>2,50</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>10</cod_cd>
+					<titulo>Cuando Ella Me Toca (Nada Más Importa)</titulo>
+					<duracion>2,53</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>10</cod_cd>
+					<titulo>Estás echando agua sobre un hombre que se está ahogando</titulo>
+					<duracion>2,37</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>10</cod_cd>
+					<titulo>Ladrón en la noche</titulo>
+					<duracion>2,45</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>10</cod_cd>
+					<titulo>Me engañaste</titulo>
+					<duracion>2,57</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>10</cod_cd>
+					<titulo>El amor hace girar al mundo</titulo>
+					<duracion>2,67</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>10</cod_cd>
+					<titulo>Éxito</titulo>
+					<duracion>3,00</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>10</cod_cd>
+					<titulo>Ámame como lo dices en serio</titulo>
+					<duracion>2,43</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="11">
+			<titulo>Angel negro</titulo>
+			<artista>Savage Rose</artista>
+			<pais>EU</pais>
+			<empresa>Mega</empresa>
+			<precio>10.90</precio>
+			<anio>1995</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>11</cod_cd>
+					<titulo>Ángel negro</titulo>
+					<duracion>3,53</duracion>
+				</cancion>	
+				<cancion>
+					<cod_cd>11</cod_cd>
+					<titulo>Qué haces ahora</titulo>
+					<duracion>5,22</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>11</cod_cd>
+					<titulo>Corre rosa</titulo>
+					<duracion>3,35</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>11</cod_cd>
+					<titulo>Corazón solitario</titulo>
+					<duracion>3,87</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>11</cod_cd>
+					<titulo>Tristeza matutina</titulo>
+					<duracion>3,47</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>11</cod_cd>
+					<titulo>Piénsalo todo</titulo>
+					<duracion>4,98</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>11</cod_cd>
+					<titulo>Te necesito bebé</titulo>
+					<duracion>4,90</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>11</cod_cd>
+					<titulo>Lo sabrás por la mañana</titulo>
+					<duracion>4,07</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>11</cod_cd>
+					<titulo>Dónde han ido todas las flores</titulo>
+					<duracion>4,37</duracion>
+				</cancion>	
+				<cancion>
+					<cod_cd>11</cod_cd>
+					<titulo>Clamoroso</titulo>
+					<duracion>5,33</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>11</cod_cd>
+					<titulo>Tu regalo diario</titulo>
+					<duracion>4,67</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>11</cod_cd>
+					<titulo>Ballet de niños tristes</titulo>
+					<duracion>4,90</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="12">
+			<titulo>Convirtiendose en piedra</titulo>
+			<artista>Many</artista>
+			<pais>Canadá</pais>
+			<empresa>Las discas</empresa>
+			<precio>10.20</precio>
+			<anio>1993</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>12</cod_cd>
+					<titulo>Convirtiéndose en piedra</titulo>
+					<duracion>3,00</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>12</cod_cd>
+					<titulo>Fuera de mi camino</titulo>
+					<duracion>4,05</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>12</cod_cd>
+					<titulo>Sentimientos en mi corazón</titulo>
+					<duracion>5,2</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>12</cod_cd>
+					<titulo>Ángel</titulo>
+					<duracion>3,28</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>12</cod_cd>
+					<titulo>Colores en mi mente</titulo>
+					<duracion>3,37</duracion>
+				</cancion>	
+				<cancion>
+					<cod_cd>12</cod_cd>
+					<titulo>Ruleta sexual</titulo>
+					<duracion>2,82</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>12</cod_cd>
+					<titulo>Mantengámonos juntos</titulo>
+					<duracion>3,15</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>12</cod_cd>
+					<titulo>Salva mi alma</titulo>
+					<duracion>3,83</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>12</cod_cd>
+					<titulo>Quiero cantar</titulo>
+					<duracion>5,42</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>12</cod_cd>
+					<titulo>Ningun lugar a donde ir</titulo>
+					<duracion>4,45</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>12</cod_cd>
+					<titulo>Marywanna</titulo>
+					<duracion>3,73</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="13">
+			<titulo>Por los Buenos tiempos</titulo>
+			<artista>Kenny Rogers</artista>
+			<pais>UK</pais>
+			<empresa>Mucik Master</empresa>
+			<precio>8.70</precio>
+			<anio>1995</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>13</cod_cd>
+					<titulo>Por los buenos tiempos</titulo>
+					<duracion>3,28</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>13</cod_cd>
+					<titulo>Ruby, no lleves tu amor a la ciudad</titulo>
+					<duracion>2,88</duracion>
+				</cancion>	
+				<cancion>
+					<cod_cd>13</cod_cd>
+					<titulo>Algo esta ardiendo</titulo>
+					<duracion>3,90</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>13</cod_cd>
+					<titulo>Elvira</titulo>
+					<duracion>2,75</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>13</cod_cd>
+					<titulo>Un poema para mi pequeña dama</titulo>
+					<duracion>2,52</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>13</cod_cd>
+					<titulo>Siempre Partiendo Siempre Ido</titulo>
+					<duracion>2,57</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>13</cod_cd>
+					<titulo>Brilla en la montaña rubí</titulo>
+					<duracion>2,92</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>13</cod_cd>
+					<titulo>Mentiras caseras</titulo>
+					<duracion>2,42</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>13</cod_cd>
+					<titulo>Boleto a ninguna parte</titulo>
+					<duracion>2,37</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>13</cod_cd>
+					<titulo>Recuéstalo</titulo>
+					<duracion>4,22</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>13</cod_cd>
+					<titulo>Brillo Solar</titulo>
+					<duracion>3,07</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>13</cod_cd>
+					<titulo>Perdedor</titulo>
+					<duracion>3,17</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>13</cod_cd>
+					<titulo>Todos los hijos solitarios de Dios</titulo>
+					<duracion>3,23</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>13</cod_cd>
+					<titulo>Qué voy a hacer</titulo>
+					<duracion>2,53</duracion>
+				</cancion>		
+			</canciones>
+		</cd>
+		<cd cod_cd="14">
+			<titulo>Big Willie style</titulo>
+			<artista>Will Smith</artista>
+			<pais>USA</pais>
+			<empresa>Columbia</empresa>
+			<precio>9.90</precio>
+			<anio>1997</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>14</cod_cd>
+					<titulo>Todos ustedes saben</titulo>
+					<duracion>3,95</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>14</cod_cd>
+					<titulo>Gettin 'Jiggy Wit It</titulo>
+					<duracion>3,78</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>14</cod_cd>
+					<titulo>Dulce</titulo>
+					<duracion>3,77</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>14</cod_cd>
+					<titulo>Persiguiendo para siempre</titulo>
+					<duracion>4,25</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>14</cod_cd>
+					<titulo>Keith B-Real I (Interludio)</titulo>
+					<duracion>1,12</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>14</cod_cd>
+					<titulo>No digas nada</titulo>
+					<duracion>4,37</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>14</cod_cd>
+					<titulo>Miami</titulo>
+					<duracion>3,28</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>14</cod_cd>
+					<titulo>Si si todos ustedes</titulo>
+					<duracion>4,38</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>14</cod_cd>
+					<titulo>Yo te amaba</titulo>
+					<duracion>4,2</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>14</cod_cd>
+					<titulo>Keith B-Real II (Interludio)</titulo>
+					<duracion>0,50</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>14</cod_cd>
+					<titulo>Está todo bien</titulo>
+					<duracion>4,07</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>14</cod_cd>
+					<titulo>Apenas el dos de nosotros</titulo>
+					<duracion>5,25</duracion>
+				</cancion>	
+				<cancion>
+					<cod_cd>14</cod_cd>
+					<titulo>Keith B-Real III (Interludio)</titulo>
+					<duracion>1,90</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>14</cod_cd>
+					<titulo>Gran estilo Willie</titulo>
+					<duracion>3,58</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>14</cod_cd>
+					<titulo>Hombres de negro</titulo>
+					<duracion>3,78</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="15">
+			<titulo>Tupelo Honey</titulo>
+			<artista>Van Morrison</artista>
+			<pais>UK</pais>
+			<empresa>Polydor</empresa>
+			<precio>8.20</precio>
+			<anio>1971</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>15</cod_cd>
+					<titulo>Noche salvaje</titulo>
+					<duracion>3,48</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>15</cod_cd>
+					<titulo>(Directo a tu corazón) como una bala de cañón</titulo>
+					<duracion>3,62</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>15</cod_cd>
+					<titulo>Viejo viejo Woodstock</titulo>
+					<duracion>4,23</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>15</cod_cd>
+					<titulo>Comenzando una nueva vida</titulo>
+					<duracion>2,1</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>15</cod_cd>
+					<titulo>Eres mi mujer</titulo>
+					<duracion>6,67</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>15</cod_cd>
+					<titulo>Miel de tupelo</titulo>
+					<duracion>6,88</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>15</cod_cd>
+					<titulo>I Wanna Roo You</titulo>
+					<duracion>3,37</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>15</cod_cd>
+					<titulo>Cuando ese sol vespertino se pone</titulo>
+					<duracion>3,03</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>15</cod_cd>
+					<titulo>Whisky de alcohol ilegal</titulo>
+					<duracion>6,75</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="16">
+			<titulo>Soulsville</titulo>
+			<artista>Jorn Hoel</artista>
+			<pais>Norway</pais>
+			<empresa>WEA</empresa>
+			<precio>7.90</precio>
+			<anio>1996</anio>
+			<canciones>
+			<cancion>
+				<cod_cd>16</cod_cd>
+					<titulo>La próxima vez que te vea</titulo>
+					<duracion>4,92</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>16</cod_cd>
+					<titulo>mosca española</titulo>
+					<duracion>3,98</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>16</cod_cd>
+					<titulo>quiero que ella sea como tu</titulo>
+					<duracion>4,03</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>16</cod_cd>
+					<titulo>Tamal caliente</titulo>
+					<duracion>4,42</duracion>
+				</cancion>	
+				<cancion>
+					<cod_cd>16</cod_cd>
+					<titulo>Si te perdiera bebe</titulo>
+					<duracion>5,00</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>16</cod_cd>
+					<titulo>Iglesia del corazón</titulo>
+					<duracion>4,68</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>16</cod_cd>
+					<titulo>cosas descalzas</titulo>
+					<duracion>3,90</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>16</cod_cd>
+					<titulo>Soulsville</titulo>
+					<duracion>3,78</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>16</cod_cd>
+					<titulo>Puedo amarte mejor</titulo>
+					<duracion>5,08</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>16</cod_cd>
+					<titulo>Quien te ama bebe</titulo>
+					<duracion>3,7</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>16</cod_cd>
+					<titulo>Suéltate el pelo</titulo>
+					<duracion>4,53</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>16</cod_cd>
+					<titulo>mojo gurú</titulo>
+					<duracion>5,00</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="17">
+			<titulo>Lo mejor de Cat Stevens</titulo>
+			<artista>Cat Stevens</artista>
+			<pais>UK</pais>
+			<empresa>Island</empresa>
+			<precio>8.90</precio>
+			<anio>1990</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>17</cod_cd>
+					<titulo>Dónde juegan los niños</titulo>
+					<duracion>3,83</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>17</cod_cd>
+					<titulo>Mundo salvaje</titulo>
+					<duracion>3,3</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>17</cod_cd>
+					<titulo>Muertos del martes</titulo>
+					<duracion>3,58</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>17</cod_cd>
+					<titulo>Señora D'Arbanville</titulo>
+					<duracion>3,67</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>17</cod_cd>
+					<titulo>El primer corte es el más profundo</titulo>
+					<duracion>3,03</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>17</cod_cd>
+					<titulo>Oh muy joven</titulo>
+					<duracion>2,50</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>17</cod_cd>
+					<titulo>Rubíamor</titulo>
+					<duracion>2,58</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>17</cod_cd>
+					<titulo>La mañana se ha roto</titulo>
+					<duracion>3,27</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>17</cod_cd>
+					<titulo>Sombra de Luna</titulo>
+					<duracion>2,8</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>17</cod_cd>
+					<titulo>Mateo e hijo</titulo>
+					<duracion>2,67</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>17</cod_cd>
+					<titulo>Padre e hijo</titulo>
+					<duracion>2,62</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>17</cod_cd>
+					<titulo>No puedo mantenerlo adentro</titulo>
+					<duracion>2,97</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>17</cod_cd>
+					<titulo>Mujer cabezota</titulo>
+					<duracion>3,77</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>17</cod_cd>
+					<titulo>Patio de la vieja escuela</titulo>
+					<duracion>2,73</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>17</cod_cd>
+					<titulo>Amo a mi perro</titulo>
+					<duracion>2,3</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>17</cod_cd>
+					<titulo>Otro sábado por la noche</titulo>
+					<duracion>2,45</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>17</cod_cd>
+					<titulo>Lisa triste</titulo>
+					<duracion>3,67</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>17</cod_cd>
+					<titulo>Tren de paz</titulo>
+					<duracion>4,07</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="18">
+			<titulo>¡Alto!</titulo>
+			<artista>Sam Brown</artista>
+			<pais>UK</pais>
+			<empresa>A and M</empresa>
+			<precio>8.90</precio>
+			<anio>1988</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>18</cod_cd>
+					<titulo>Caminando de regreso a mí</titulo>
+					<duracion>3,73</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>18</cod_cd>
+					<titulo>Tu amor es todo</titulo>
+					<duracion>4,15</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>18</cod_cd>
+					<titulo>Deténgase</titulo>
+					<duracion>4,93</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>18</cod_cd>
+					<titulo>Me hace pensar</titulo>
+					<duracion>4,6</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>18</cod_cd>
+					<titulo>Este sentimiento</titulo>
+					<duracion>3,28</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>18</cod_cd>
+					<titulo>Té</titulo>
+					<duracion>0,75</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>18</cod_cd>
+					<titulo>Pedazo de mi suerte</titulo>
+					<duracion>2,95</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>18</cod_cd>
+					<titulo>Bola y cadena</titulo>
+					<duracion>4,6</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>18</cod_cd>
+					<titulo>Envuélveme</titulo>
+					<duracion>3,22</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>18</cod_cd>
+					<titulo>Estaré enamorado</titulo>
+					<duracion>5,25</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>18</cod_cd>
+					<titulo>Carrusel</titulo>
+					<duracion>3,13</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>18</cod_cd>
+					<titulo>A veces simplemente no sabes</titulo>
+					<duracion>3,13</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>18</cod_cd>
+					<titulo>Puedo conseguir un testigo</titulo>
+					<duracion>3,02</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>18</cod_cd>
+					<titulo>Alto como una cometa</titulo>
+					<duracion>3,43</duracion>
+				</cancion>	
+				<cancion>
+					<cod_cd>18</cod_cd>
+					<titulo>Límites de la ciudad de Nutbush</titulo>
+					<duracion>4,45</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="19">
+			<titulo>Puente de los espias</titulo>
+			<artista>T`Pau</artista>
+			<pais>UK</pais>
+			<empresa>Siren</empresa>
+			<precio>7.90</precio>
+			<anio>1987</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>19</cod_cd>
+					<titulo>Corazón y alma</titulo>
+					<duracion>4,25</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>19</cod_cd>
+					<titulo>Estaré contigo</titulo>
+					<duracion>4,1</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>19</cod_cd>
+					<titulo>China en tu mano</titulo>
+					<duracion>5,1</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>19</cod_cd>
+					<titulo>Amigos como estos</titulo>
+					<duracion>3,75</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>19</cod_cd>
+					<titulo>Charla de sexo</titulo>
+					<duracion>4,12</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>19</cod_cd>
+					<titulo>Puente de espias</titulo>
+					<duracion>5,38</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>19</cod_cd>
+					<titulo>Casa de los monos</titulo>
+					<duracion>4,4</duracion>
+				</cancion>	
+				<cancion>
+					<cod_cd>19</cod_cd>
+					<titulo>Enamorado</titulo>
+					<duracion>3,88</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>19</cod_cd>
+					<titulo>Gracias por adios</titulo>
+					<duracion>3,90</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>19</cod_cd>
+					<titulo>Tu te rindes</titulo>
+					<duracion>4,65</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="20">
+			<titulo>Bailarin Privado</titulo>
+			<artista>Tina Turner</artista>
+			<pais>UK</pais>
+			<empresa>Capitol</empresa>
+			<precio>8.90</precio>
+			<anio>1984</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>20</cod_cd>
+					<titulo>Podría haber sido reina</titulo>
+					<duracion>4,13</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>20</cod_cd>
+					<titulo>que tiene que ver el amor con eso</titulo>
+					<duracion>3,82</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>20</cod_cd>
+					<titulo>Muestra algo de respeto</titulo>
+					<duracion>3,32</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>20</cod_cd>
+					<titulo>no soporto la lluvia</titulo>
+					<duracion>3,67</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>20</cod_cd>
+					<titulo>Mejor sé bueno conmigo</titulo>
+					<duracion>5,23</duracion>
+				</cancion>	
+				<cancion>
+					<cod_cd>20</cod_cd>
+					<titulo>Quedémonos juntos</titulo>
+					<duracion>5,25</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>20</cod_cd>
+					<titulo>1984</titulo>
+					<duracion>3,17</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>20</cod_cd>
+					<titulo>Garra de acero</titulo>
+					<duracion>3,67</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>20</cod_cd>
+					<titulo>Bailarín privado</titulo>
+					<duracion>7,27</duracion>
+				</cancion>		
+			</canciones>
+		</cd>
+		<cd cod_cd="21">
+			<titulo>En medio de la noche</titulo>
+			<artista>Kim Larsen</artista>
+			<pais>EU</pais>
+			<empresa>Medley</empresa>
+			<precio>7.80</precio>
+			<anio>1983</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>21</cod_cd>
+					<titulo>Susana azul cielo</titulo>
+					<duracion>3,83</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>21</cod_cd>
+					<titulo>Clip de papel</titulo>
+					<duracion>3,25</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>21</cod_cd>
+					<titulo>Propiedad de jardín</titulo>
+					<duracion>3,67</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>21</cod_cd>
+					<titulo>Rocco</titulo>
+					<duracion>3,08</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>21</cod_cd>
+					<titulo>garrapata garrapata</titulo>
+					<duracion>4,75</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>21</cod_cd>
+					<titulo>Hermosa chica</titulo>
+					<duracion>2,75</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>21</cod_cd>
+					<titulo>El tiempo se detiene</titulo>
+					<duracion>4,00</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>21</cod_cd>
+					<titulo>1910</titulo>
+					<duracion>2,75</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>21</cod_cd>
+					<titulo>Niñita</titulo>
+					<duracion>2,92</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>21</cod_cd>
+					<titulo>Volver Volver</titulo>
+					<duracion>3,08</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>21</cod_cd>
+					<titulo>En medio de la noche</titulo>
+					<duracion>4,50</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="22">
+			<titulo>Concierto de Gala de Pavarotti</titulo>
+			<artista>Luciano Pavarotti</artista>
+			<pais>Francia</pais>
+			<empresa>DECCA</empresa>
+			<precio>9.90</precio>
+			<anio>1991</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>22</cod_cd>
+					<titulo>Oh Noche Santa</titulo>
+					<duracion>4,23</duracion>
+				</cancion>	
+				<cancion>
+					<cod_cd>22</cod_cd>
+					<titulo>Piedad, Signore</titulo>
+					<duracion>8,42</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>22</cod_cd>
+					<titulo>Panis Angelicus</titulo>
+					<duracion>4,03</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>22</cod_cd>
+					<titulo>Qual Giglio Cándido</titulo>
+					<duracion>4,67</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>22</cod_cd>
+					<titulo>AVE María</titulo>
+					<duracion>4,8</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>22</cod_cd>
+					<titulo>Jesús Bambino</titulo>
+					<duracion>4,48</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>22</cod_cd>
+					<titulo>Che Farò Senza Eurídice?</titulo>
+					<duracion>4,43</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>22</cod_cd>
+					<titulo>Cuius animam</titulo>
+					<duracion>5,85</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>22</cod_cd>
+					<titulo>Ingemisco</titulo>
+					<duracion>3,58</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>22</cod_cd>
+					<titulo>AVE María</titulo>
+					<duracion>2,93</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>22</cod_cd>
+					<titulo>Mille Cherubini En Coro</titulo>
+					<duracion>4,03</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>22</cod_cd>
+					<titulo>Cordero de Dios</titulo>
+					<duracion>3,75</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>22</cod_cd>
+					<titulo>Sanctus</titulo>
+					<duracion>9,13</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>22</cod_cd>
+					<titulo>Adeste fideles</titulo>
+					<duracion>3,55</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="23">
+			<titulo>El muelle de la bahia</titulo>
+			<artista>Otis Redding</artista>
+			<pais>España</pais>
+			<empresa>Atlantic</empresa>
+			<precio>7.90</precio>
+			<anio>1968</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>23</cod_cd>
+					<titulo>(Sentado en) El muelle de la bahía</titulo>
+					<duracion>2,63</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>23</cod_cd>
+					<titulo>Te amo más que lo que puedan expresar las palabras</titulo>
+					<duracion>2,67</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>23</cod_cd>
+					<titulo>Déjame volver a casa</titulo>
+					<duracion>2,88</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>23</cod_cd>
+					<titulo>Abre la puerta</titulo>
+					<duracion>2,35</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>23</cod_cd>
+					<titulo>No juegues con cupido</titulo>
+					<duracion>2,47</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>23</cod_cd>
+					<titulo>Seguridad</titulo>
+					<duracion>2,50</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>23</cod_cd>
+					<titulo>La gloria del amor</titulo>
+					<duracion>2,63</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>23</cod_cd>
+					<titulo>Vuelvo a casa</titulo>
+					<duracion>3,05</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>23</cod_cd>
+					<titulo>Mr Pitiful</titulo>
+					<duracion>2,43</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>23</cod_cd>
+					<titulo>El Huckle-Buck</titulo>
+					<duracion>2,97</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>23</cod_cd>
+					<titulo>Nadie te conoce (Cuando estás acabado)</titulo>
+					<duracion>3,17</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>23</cod_cd>
+					<titulo>Ese viejo problema</titulo>
+					<duracion>2,6</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="24">
+			<titulo>Libro de fotos</titulo>
+			<artista>Simply Red</artista>
+			<pais>EU</pais>
+			<empresa>Elektra</empresa>
+			<precio>7.20</precio>
+			<anio>1985</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>24</cod_cd>
+					<titulo>Ven en mi ayuda</titulo>
+					<duracion>4,07</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>24</cod_cd>
+					<titulo>Triste viejo rojo</titulo>
+					<duracion>4,53</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>24</cod_cd>
+					<titulo>Mírate ahora</titulo>
+					<duracion>3,03</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>24</cod_cd>
+					<titulo>Cielo</titulo>
+					<duracion>4,55</duracion>
+				</cancion>	
+				<cancion>
+					<cod_cd>24</cod_cd>
+					<titulo>Jericó</titulo>
+					<duracion>6,07</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>24</cod_cd>
+					<titulo>El dinero es demasiado escaso (para mencionar)</titulo>
+					<duracion>4,23</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>24</cod_cd>
+					<titulo>Deteniendo los años</titulo>
+					<duracion>4,47</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>24</cod_cd>
+					<titulo>Caja roja</titulo>
+					<duracion>3,92</duracion>
+				</cancion>		
+				<cancion>
+					<cod_cd>24</cod_cd>
+					<titulo>No Direction</titulo>
+					<duracion>3,67</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>24</cod_cd>
+					<titulo>Libro de fotos</titulo>
+					<duracion>5,8</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="25">
+			<titulo>Rojo</titulo>
+			<artista>The Communards</artista>
+			<pais>UK</pais>
+			<empresa>London</empresa>
+			<precio>7.80</precio>
+			<anio>1987</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>25</cod_cd>
+					<titulo>Mañana</titulo>
+					<duracion>4,83</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>25</cod_cd>
+					<titulo>TMT Ama.TBMG</titulo>
+					<duracion>4,6</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>25</cod_cd>
+					<titulo>Cosa de opinión</titulo>
+					<duracion>4,43</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>25</cod_cd>
+					<titulo>Víctimas</titulo>
+					<duracion>4,50</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>25</cod_cd>
+					<titulo>Para un amigo</titulo>
+					<duracion>5,00</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>25</cod_cd>
+					<titulo>Nunca digas adiós</titulo>
+					<duracion>4,75</duracion>
+				</cancion>	
+				<cancion>
+					<cod_cd>25</cod_cd>
+					<titulo>Amigos y amantes</titulo>
+					<duracion>4,18</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>25</cod_cd>
+					<titulo>Agárrate fuerte</titulo>
+					<duracion>4,78</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>25</cod_cd>
+					<titulo>Si pudiera decirte</titulo>
+					<duracion>4,22</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>25</cod_cd>
+					<titulo>Do menor</titulo>
+					<duracion>5,1</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+		<cd cod_cd="26">
+			<titulo>Libera mi corazon</titulo>
+			<artista>Joe Cocker</artista>
+			<pais>USA</pais>
+			<empresa>EMI</empresa>
+			<precio>8.20</precio>
+			<anio>1987</anio>
+			<canciones>
+				<cancion>
+					<cod_cd>26</cod_cd>
+					<titulo>Libera mi corazón</titulo>
+					<duracion>5,03</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>26</cod_cd>
+					<titulo>Dos errores</titulo>
+					<duracion>4,02</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>26</cod_cd>
+					<titulo>Me quedo asombrado</titulo>
+					<duracion>4,35</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>26</cod_cd>
+					<titulo>El río crece</titulo>
+					<duracion>4,07</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>26</cod_cd>
+					<titulo>Aislamiento</titulo>
+					<duracion>3,8</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>26</cod_cd>
+					<titulo>Todos nuestros mañanas</titulo>
+					<duracion>4,37</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>26</cod_cd>
+					<titulo>Una mujer ama a un hombre</titulo>
+					<duracion>4,23</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>26</cod_cd>
+					<titulo>Confía en mi</titulo>
+					<duracion>4,22</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>26</cod_cd>
+					<titulo>El único</titulo>
+					<duracion>4,57</duracion>
+				</cancion>
+				<cancion>
+					<cod_cd>26</cod_cd>
+					<titulo>Satisfecho</titulo>
+					<duracion>3,35</duracion>
+				</cancion>
+			</canciones>
+		</cd>
+	</cds>
+</catalogo>
