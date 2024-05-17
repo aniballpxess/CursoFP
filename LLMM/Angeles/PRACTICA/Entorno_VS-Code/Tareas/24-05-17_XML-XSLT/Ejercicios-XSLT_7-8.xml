@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl" href="Ejercicio-XSLT-7.xslt"?>
+<personal>
+  <persona sexo="Hombre">
+    <nombre>Antonio</nombre>
+    <apellido>Sierra</apellido>
+  </persona>
+  <persona sexo="Mujer">
+    <nombre>Josefa</nombre>
+    <apellido>Ruiz</apellido>
+  </persona>
+  <persona sexo="Hombre">
+    <nombre>Carlos</nombre>
+    <apellido>Perez</apellido>
+  </persona>
+  <persona sexo="Mujer">
+    <nombre>Luisa</nombre>
+    <apellido>Fernandez</apellido>
+  </persona>
+  <profesor>
+    <nombre>Fede</nombre>
+    <modulo>Marcas</modulo>
+  </profesor>
+  <profesor>
+    <nombre>Susana</nombre>
+    <modulo>ISO</modulo>
+  </profesor>
+  <profesor>
+    <nombre>Isabel</nombre>
+    <modulo>Base de Datos</modulo>
+  </profesor>
+  <profesor>
+    <nombre>Ricardo</nombre>
+    <modulo>Hardware</modulo>
+  </profesor>
+</personal> 
