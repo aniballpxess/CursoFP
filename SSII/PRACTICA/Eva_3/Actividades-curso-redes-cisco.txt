@@ -1,0 +1,18 @@
+Default Gateway   - 192.168.1.1
+Public IP Address - 209.165.200.227
+-------------------------------------------------------------------------------------------------------------
+01. Wireless - Copper through - Fiber/Coaxial
+02. No
+03. It forwarded the message to each connection it had, if a connection sent a ping back it meant that the message was processed
+04. Yes, it changed the Ethernet envelope into an 802.11 envelope and viceversa (Changed the MAC Addresess)
+05. Layer 1
+06. Layer 1?
+07. Dest. before Src.
+08. That the PSU wasn't directed to that part of the network
+09. At the Router?
+10. Router
+11. 10.10.10.2 / 172.16.31.3 / Access Point
+12. No
+13. They are reversed, in order of appearance and in type (Dest>>Src & Src>>Dest)
+14. So you can isolate networks, reducing unnecessary traffic and controlling logical access more easily
+15. 10.10.10.0/24 and 172.16.31.0/24
